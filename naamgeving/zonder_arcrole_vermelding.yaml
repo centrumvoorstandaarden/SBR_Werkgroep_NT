@@ -1,0 +1,57 @@
+label:
+  suffix: {labeltype}-lab-{language}.xml
+  labeltype:
+    - terse: http://www.xbrl.org/2003/role/terseLabel
+    - verbose: http://www.xbrl.org/2003/role/verboseLabel
+    - documenation: http://www.xbrl.org/2003/role/documentation
+    - total: http://www.xbrl.org/2003/role/totalLabel
+    - periodstart: http://www.xbrl.org/2003/role/periodStartLabel
+    - periodend: http://www.xbrl.org/2003/role/periodEndLabel
+    - commentaryguidance: http://www.xbrl.org/2003/role/commentaryGuidance
+    - definitionguidance: http://www.xbrl.org/2003/role/DefinitionGuidance
+    - negatedtotal: http://www.xbrl.org/2009/role/negatedTotalLabel
+    - negatedterse: http://www.xbrl.org/2009/role/negatedTerseLabel
+    - negated: http://www.xbrl.org/2009/role/negatedLabel
+    - domainSpecific: http://www.nltaxonomie.nl/2016/labelrole/domainSpecificLabel
+    - domainSpecificTerse: http://www.nltaxonomie.nl/2016/labelrole/domainSpecificTerseLabel
+    - domainSpecificVerbose: http://www.nltaxonomie.nl/2016/labelrole/domainSpecificVerboseLabel
+    - domainSpecificTotal: http://www.nltaxonomie.nl/2016/labelrole/domainSpecificTotalLabel
+    - domainSpecificPeriodStart: http://www.nltaxonomie.nl/2016/labelrole/domainSpecificPeriodStartLabel 
+    - domainSpecificPeriodEnd: http://www.nltaxonomie.nl/2016/labelrole/domainSpecificPeriodEndLabel 
+    - industrySpecific: http://www.nltaxonomie.nl/2016/labelrole/industrySpecificLabel
+    - industrySpecificTerse: http://www.nltaxonomie.nl/2016/labelrole/industrySpecificTerseLabel
+    - industrySpecificVerbose: http://www.nltaxonomie.nl/2016/labelrole/industrySpecificVerboseLabel
+    - industrySpecificTotal: http://www.nltaxonomie.nl/2016/labelrole/industrySpecificTotalLabel
+    - industrySpecificPeriodStart: http://www.nltaxonomie.nl/2016/labelrole/industrySpecificPeriodStartLabel 
+    - industrySpecificPeriodEnd: http://www.nltaxonomie.nl/2016/labelrole/industrySpecificPeriodEndLabel
+    - entitySpecific: http://www.nltaxonomie.nl/2016/labelrole/entitySpecificLabel
+    - entitySpecificTerse: http://www.nltaxonomie.nl/2016/labelrole/entitySpecificTerseLabel
+    - entitySpecificVerbose: http://www.nltaxonomie.nl/2016/labelrole/entitySpecificVerboseLabel
+    - entitySpecificTotal: http://www.nltaxonomie.nl/2016/labelrole/entitySpecificTotalLabel
+    - entitySpecificPeriodStart: http://www.nltaxonomie.nl/2016/labelrole/entitySpecificPeriodStartLabel 
+    - entitySpecificPeriodEnd: http://www.nltaxonomie.nl/2016/labelrole/entitySpecificPeriodEndLabel
+
+reference:
+  suffix: -ref.xml
+
+presentation:
+  suffix: -pre.xml
+
+definition:
+  suffix: -def.xml
+
+calculation:
+  suffix: -cal.xml
+  note: Currently not allowed
+
+formula: 
+  suffix: -for.xml
+
+message:
+  suffix: -msg-{language}
+
+footnote:
+  note: Currently not allowed
+
+table:
+  suffix: -tab.xml
