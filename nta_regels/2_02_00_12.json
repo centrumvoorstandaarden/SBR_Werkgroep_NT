@@ -1,0 +1,21 @@
+{
+    "rule_nr": "2.02.00.12",
+    "name": {
+        "nl": "Een schema waar linkroles of arcroles gedefinieerd worden of linkbases gekoppeld worden, MOET de node waarin dit gebeurd (<xs:annotation><xs:appinfo>) direct achter de root node hebben",
+        "en": "A schema containing linkrole and/or arc role declarations MUST have that node (<xs:annotation><xs:appinfo>) directly behind the schema root node"
+    },
+    "explanation": {
+        "nl": "Geen andere reden dan consistentie.",
+        "en": ""
+    },
+    "introduction_date": "2010/06/23",
+    "related": "4.01.004",
+    "error_message": {
+        "nl": "XML Schema xs:schema MOET gevolgd worden door xs:annotation INDIEN aanwezig",
+        "en": ""
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "testable": false,
+    "section": "XML Schema - Basis"
+}

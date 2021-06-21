@@ -1,0 +1,19 @@
+{
+    "rule_nr": "3.02.10.02",
+    "name": {
+        "nl": "Een linkrole @id MOET NIET meer dan 255 tekens zijn",
+        "en": "Linkrole @id MUST NOT exceed 255 characters"
+    },
+    "explanation": {
+        "nl": "NA",
+        "en": null
+    },
+    "introduction_date": "2010/11/17",
+    "error_message": {
+        "nl": "Een linkrole @id MOET NIET meer dan 255 tekens zijn",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "Naamgeving - Linkrole @id"
+}

@@ -1,0 +1,18 @@
+{
+    "rule_nr": "2.02.11.11",
+    "name": {
+        "nl": "<xs:complexType> MOET NIET gebruikt worden als lokale root node onder <xs:schema>",
+        "en": "<xs:complexType> MUST NOT be created by Dutch Taxonomy Partners as a local root node child to <xs:schema>"
+    },
+    "explanation": {
+        "nl": "Een complexType (niet te verwarren met een element dat van het type complexType) wordt gedefinieerd om als 'basis' type te dienen voor afgeleide elementen van het type complexType. De XBRL 2.1 specificatie heeft aangegeven maar \u00e9\u00e9n complexType element te ondersteunen: de tuple.",
+        "en": null
+    },
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "XML Schema - Overig"
+}

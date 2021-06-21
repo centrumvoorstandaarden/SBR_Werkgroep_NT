@@ -1,0 +1,19 @@
+{
+    "rule_nr": "3.02.01.10",
+    "name": {
+        "nl": "Linkbase inhoud, zoals gedefinieerd door de Generic Link 1.0 specificatie, MOET tot uitdrukking gebracht worden in de bestandsnaam conform tabel B",
+        "en": "Linkbase content as specified in the Generic Link 1.0 specification, MUST be expressed in the linkbase file name conform table B"
+    },
+    "explanation": {
+        "nl": "NA",
+        "en": null
+    },
+    "related": "NT_Naamgeving#Tabel_B:_Generic_Linkbase_bestandsnaam_extensies",
+    "error_message": {
+        "nl": "Linkbase inhoud, zoals gedefinieerd door de Generic Link 1.0 specificatie, MOET tot uitdrukking gebracht worden in de bestandsnaam conform tabel B",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "Naamgeving - Bestanden en directories"
+}

@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.02.02.15",
+    "name": {
+        "nl": "//xs:element/@nillable is verplicht",
+        "en": "//xs:element/@nillable is mandatory"
+    },
+    "explanation": {
+        "nl": "Het attribuut is verplicht in de NT om geen impliciete waarden te laten voorkomen.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "related": "FRTA 1.0 (2.1.6), 4.01.051",
+    "error_message": {
+        "nl": "//xs:element/@nillable is verplicht",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "XML Schema - Concepten"
+}

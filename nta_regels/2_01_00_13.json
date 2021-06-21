@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.01.00.13",
+    "name": {
+        "nl": "Alle gebruikte elementen welke niet gedefinieerd zijn in de NT MOETEN worden gedefinieerd in de PE.",
+        "en": ""
+    },
+    "explanation": {
+        "nl": "NA",
+        "en": ""
+    },
+    "error_message": {
+        "nl": "",
+        "en": ""
+    },
+    "nta_rule": false,
+    "pe_rule": true,
+    "testable": false,
+    "section": "Algemeen"
+}

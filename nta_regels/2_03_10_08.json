@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.03.10.08",
+    "name": {
+        "nl": "link:loc/@xlink:role MOET NIET gebruikt worden",
+        "en": "link:loc/@xlink:role MUST NOT be used"
+    },
+    "explanation": {
+        "nl": "XBRL heeft geen functie gedefinieerd voor de attribuut, daarom is het niet toegestaan in de NT.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "error_message": {
+        "nl": "link:loc/@xlink:role MOET NIET gebruikt worden",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "XML Linkbase - Overig"
+}

@@ -1,0 +1,16 @@
+{
+    "rule_nr": "2.02.07.03",
+    "name": {
+        "nl": "Enumeraties BEHOREN niet gebruikt te worden (gebruik domein)",
+        "en": "Enumerations SHOULD be prevented (use domain)"
+    },
+    "explanation": {
+        "nl": "Waardebeperkingen op concepten kunnen afgedwongen worden met een enumeratie. Echter als de enumeratie een uitbreidbare lijst van waarden vertegenwoordigd en voorzien moet kunnen worden van labels in diverse talen, dan is de XML schema oplossingen van een enumeratie te beperkend. Een domein kent deze beperkingen niet. Voor afwegingen wanneer een lijst met waarden een enumeratie is en wanneer deze een domein is: zie het hoofdstuk over patterns.",
+        "en": null
+    },
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "section": "XML Schema - Type & Enumeraties"
+}

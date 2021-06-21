@@ -1,0 +1,20 @@
+{
+    "rule_nr": "3.02.01.12",
+    "name": {
+        "nl": "Gebruikte arcroles in een linkbase MOGEN tot uitdrukking gebracht worden in de bestandsnaam",
+        "en": "Arcroles used in a linkbase MAY be expressed in the linkbase file name"
+    },
+    "explanation": {
+        "nl": "NA",
+        "en": null
+    },
+    "introduction_date": "2010/11/17",
+    "related": "NT_Naamgeving#Met_arcrole_vermelding",
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "Naamgeving - Bestanden en directories"
+}

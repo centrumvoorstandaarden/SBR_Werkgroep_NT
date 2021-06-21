@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.02.00.34",
+    "name": {
+        "nl": "Nieuwe linkrole types MOETEN NIET aangemaakt worden.",
+        "en": ""
+    },
+    "explanation": {
+        "nl": "NA",
+        "en": ""
+    },
+    "error_message": {
+        "nl": "",
+        "en": ""
+    },
+    "nta_rule": false,
+    "pe_rule": true,
+    "testable": false,
+    "section": "XML Schema - Basis"
+}

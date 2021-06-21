@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.01.00.16",
+    "name": {
+        "nl": "Elk bestand in de PE MOET op eenzelfde level gegeven worden; bestanden MOETEN NIET in mappen aangeleverd worden.",
+        "en": ""
+    },
+    "explanation": {
+        "nl": "NA",
+        "en": ""
+    },
+    "error_message": {
+        "nl": "",
+        "en": ""
+    },
+    "nta_rule": false,
+    "pe_rule": true,
+    "testable": false,
+    "section": "Algemeen"
+}

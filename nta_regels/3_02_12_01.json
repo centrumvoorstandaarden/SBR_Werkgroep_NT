@@ -1,0 +1,19 @@
+{
+    "rule_nr": "3.02.12.01",
+    "name": {
+        "nl": "Nieuwe link:parts MOET \u2018passen\u2019 binnen de bestaande set van (XII) link:parts",
+        "en": "New link:parts MUST 'fit' the existing set of (XII) link:parts"
+    },
+    "explanation": {
+        "nl": "NA",
+        "en": null
+    },
+    "introduction_date": "2010/11/17",
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "Naamgeving - link:part @name"
+}

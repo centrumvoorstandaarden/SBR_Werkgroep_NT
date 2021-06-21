@@ -1,0 +1,19 @@
+{
+    "rule_nr": "3.02.09.03",
+    "name": {
+        "nl": "Een linkrole URI MAG alleen de tekens a-z0-9_-: gebruiken",
+        "en": "Linkrole URI\"s MUST use characters a-z0-9_-: only"
+    },
+    "explanation": {
+        "nl": "NA",
+        "en": null
+    },
+    "introduction_date": "2010/11/17",
+    "error_message": {
+        "nl": "Een linkrole URI MAG alleen de tekens a-z0-9_- gebruiken",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "Naamgeving - Linkrole URI"
+}

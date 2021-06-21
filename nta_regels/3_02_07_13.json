@@ -1,0 +1,19 @@
+{
+    "rule_nr": "3.02.07.13",
+    "name": {
+        "nl": "VERVALLEN: Nummers kleiner dan 20 MOETEN in tekst uitgeschreven worden UITGEZONDERD als in dezelfde regel een getal groter is dan 21, dan alle cijfers als numerieke waarde opnemen",
+        "en": "REMOVED: Numbers less than 20 MUST be written in text EXCEPT when a number greater than 21 is in the same line, in the latter case all numbers are numeric not in text"
+    },
+    "explanation": {
+        "nl": "NA",
+        "en": null
+    },
+    "decommission_date": "2011/09/28",
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "Naamgeving - Element Standaard label"
+}

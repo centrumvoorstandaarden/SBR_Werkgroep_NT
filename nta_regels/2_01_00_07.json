@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.01.00.07",
+    "name": {
+        "nl": "Elementen uit de NL-CD en NL-GEN taxonomie\u00ebn MOETEN gebruikt worden indien deze semantisch (1. reference, 2. element/@name, 3. standard label, 4. hi\u00ebrarchie) overeenkomen",
+        "en": "Concepts from NL-GEN or NL-CD taxonomies MUST be used if these are semantically (1. reference, 2. element/@name, 3. standard label, 4. hierarchy) equivalent"
+    },
+    "explanation": {
+        "nl": "Deze regel vormt de kern van het hergebruik van gegevenselementen, en daarmee de kern van het SBR programma. Om een DTS auteurs in staat te stellen voor hem geschikte elementen te localiseren in de NT, wordt door SBR-NT-beheer een service geboden die kandidaat elementen selecteert. Deze service vormt tevens de basis van het harmonisatieproces. Semantische gelijkheid kan alleen door materiedeskundigen vastgesteld worden. De service is gericht op het leveren van kandidaten. Criteria om een semantische gelijkheid te ontdekken zijn o.m.:\n* De elementnaam (Engels)\n* De referentie en/of documentatieLabel\n* Het standaard label (Nederlands en eventueel Engels)\n* De hi\u00ebrarchische relaties waarbinnen het element opgenomen is.",
+        "en": ""
+    },
+    "introduction_date": "2010/06/23",
+    "error_message": {
+        "nl": "nvt",
+        "en": ""
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "testable": false,
+    "section": "Algemeen"
+}

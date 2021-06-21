@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.02.11.04",
+    "name": {
+        "nl": "<xs:anyAttribute> MOET NIET gebruikt worden",
+        "en": "<xs:anyAttribute> MUST NOT be used by Dutch Taxonomy Partners"
+    },
+    "explanation": {
+        "nl": "De werking is hetzelfde als bij 2.02.11.03 alleen dan op attribuutniveau. De reden tot verbod is derhalve ook dezelfde.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "related": "2.02.11.03",
+    "error_message": {
+        "nl": "xs:anyAttribute MOET NIET gebruikt worden",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "XML Schema - Overig"
+}

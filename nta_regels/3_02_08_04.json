@@ -1,0 +1,19 @@
+{
+    "rule_nr": "3.02.08.04",
+    "name": {
+        "nl": "Een datatype voor generieke inzet, MOET een op XML basis datatype afgeleide naam (string, integer, nonPositiveInteger, date, etc.) krijgen",
+        "en": "Dataypes for generic use MUST have a name based on the XML datatypes (e.g.. string, integer, nonPositiveInteger, date ...)"
+    },
+    "explanation": {
+        "nl": "NA",
+        "en": null
+    },
+    "introduction_date": "2010/11/17",
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "Naamgeving - Element type @name"
+}

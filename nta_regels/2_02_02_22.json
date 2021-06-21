@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.02.02.22",
+    "name": {
+        "nl": "VERVALLEN @xbrli:balance MOET NIET gebruikt worden op <xs:element> als @abstract=\u2019true\u2019",
+        "en": "EXPIRED @xbrli:balance MUST NOT be used on <xs:element> when @abstract=\u2019true\u2019"
+    },
+    "explanation": {
+        "nl": "Het @balance is optioneel. Bij abstracte concepten voegt dit attribuut geen waarde toe. Daarom niet opnemen.\nDe regel geldt onafhankelijk van de plaats in de hi\u00ebrarchie waar het element aangemaakt wordt.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "decommission_date": "2011/08/30",
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "XML Schema - Concepten"
+}

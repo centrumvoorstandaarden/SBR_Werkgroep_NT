@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.03.04.08",
+    "name": {
+        "nl": "Abstracte concepten MOETEN NIET gebruikt worden in een presentatie ELR behalve die welke in de sbr:presentationItem substitutiongroup zijn opgenomen.",
+        "en": "Abstract concepts MUST NOT be used in a presentation ELR except for those having the sbr:presentationItem substitutiongroup."
+    },
+    "explanation": {
+        "nl": "-",
+        "en": null
+    },
+    "introduction_date": "2015/12/02",
+    "agreed_date": "2015/12/02",
+    "error_message": {
+        "nl": "Abstracte concepten MOETEN NIET gebruikt worden in een presentatie ELR behalve die welke in de sbr:presentationItem substitutiongroup zijn opgenomen",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "XML Linkbase - Presentatie"
+}

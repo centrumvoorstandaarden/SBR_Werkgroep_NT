@@ -1,0 +1,21 @@
+{
+    "rule_nr": "2.02.00.25",
+    "name": {
+        "nl": "Een schema MOET NIET ongebruikte role types en arc role types bevatten",
+        "en": "A schema MUST NOT contain unused role types and arc role types"
+    },
+    "explanation": {
+        "nl": "Technisch is het valide om een schema te hebben met ongebruikte (arc) role types. Deze voegen echter niets toe aan de werking van de DTS.",
+        "en": ""
+    },
+    "introduction_date": "2015/12/02",
+    "agreed_date": "2015/12/02",
+    "error_message": {
+        "nl": "Een schema MOET NIET ongebruikte role types en arc role types bevatten",
+        "en": ""
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "testable": false,
+    "section": "XML Schema - Basis"
+}

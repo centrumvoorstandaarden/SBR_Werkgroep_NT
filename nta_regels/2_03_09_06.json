@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.03.09.06",
+    "name": {
+        "nl": "Assertions die geen resultaat geven MOETEN NIET bestaan",
+        "en": "Assertions that don't fire MUST NOT exist"
+    },
+    "explanation": {
+        "nl": "Er moet altijd een resultaat getoond worden, hoe moet men anders weten dat de assertion \u00fcberhaupt gewerkt heeft?",
+        "en": null
+    },
+    "decommission_date": "2016/05/01",
+    "error_message": {
+        "nl": "Assertions die geen resultaat geven MOETEN NIET bestaan",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "XML Linkbase - Controle regels"
+}

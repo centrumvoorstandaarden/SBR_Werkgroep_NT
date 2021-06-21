@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.03.05.06",
+    "name": {
+        "nl": "Een hypercube \u2013 primary relatie MOET @xbrldt:contextElement=\"scenario\" gebruiken",
+        "en": "A hypercube - primary relationship MUST use @xbrldt:contextElement =\"scenario\""
+    },
+    "explanation": {
+        "nl": "De XBRL Dimensionele Specificatie stelt dat de inhoud van de kubus op twee (functioneel gelijke) manieren middels de context aan de primaries gekoppeld kunnen worden. SBR heeft gekozen slechts \u00e9\u00e9n manier toe te staan, middels het <xbrli:scenario> element. Deze geeft de meeste flexibiliteit.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "error_message": {
+        "nl": "Arcrole &quot;all&quot; MOET @xbrldt:contextElement =&quot;scenario&quot; gebruiken",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "XML Linkbase - Hypercubes"
+}

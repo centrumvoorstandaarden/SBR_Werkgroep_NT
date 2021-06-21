@@ -1,0 +1,19 @@
+{
+    "rule_nr": "3.02.01.14",
+    "name": {
+        "nl": "Bestandsnamen MOETEN met de NT partner toegewezen prefix beginnen, gevolgd door een afbreekstreepje",
+        "en": "Filenames MUST start with the Dutch Taxonomy partner assigned code followed by a hyphen"
+    },
+    "explanation": {
+        "nl": "Consistentie",
+        "en": null
+    },
+    "introduction_date": "2013/05/15",
+    "error_message": {
+        "nl": "Bestandsnamen MOETEN met de NT partner toegewezen prefix beginnen, gevolgd door een afbreekstreepje",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "Naamgeving - Bestanden en directories"
+}

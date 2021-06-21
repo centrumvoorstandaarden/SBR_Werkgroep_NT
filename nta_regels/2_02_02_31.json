@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.02.02.31",
+    "name": {
+        "nl": "Items met @abstract=\"true\" MOETEN NIET onder tuples genest worden",
+        "en": "Items with @abstract=\"true\" MUST NOT be children of a tuple"
+    },
+    "explanation": {
+        "nl": "Abstracte items komen niet in de instance voor met een waarde, de reden voor de nesting ligt dan ook veelal in de presentatie. Die wordt niet in het content model van de tuple opgezet maar in de presentatie linkbase.",
+        "en": null
+    },
+    "introduction_date": "2011/04/06",
+    "error_message": {
+        "nl": "Abstracte concepten MOETEN GEEN kind van een tuple zijn",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "XML Schema - Concepten"
+}

@@ -1,0 +1,18 @@
+{
+    "rule_nr": "2.03.00.18",
+    "name": {
+        "nl": "Een presentation, definition, generic en formula linkbase MOETEN minimaal \u00e9\u00e9n ELR bevatten en MOGEN meerdere ELR's bevatten",
+        "en": null
+    },
+    "explanation": {
+        "nl": "NA",
+        "en": null
+    },
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "nta_rule": false,
+    "pe_rule": true,
+    "section": "XML Linkbase - Basis"
+}

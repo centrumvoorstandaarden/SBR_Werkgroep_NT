@@ -1,0 +1,21 @@
+{
+    "rule_nr": "2.02.00.26",
+    "name": {
+        "nl": "Een entrypoint schema MOET alleen linkbaseRefs bevatten naar presentation, definition en generic linkbases en label linkbases van het type industrySpecific, domainSpecific of entitySpecific.",
+        "en": "An entrypoint schema MUST only contain linkbaseRef to presentation, definition and generic linkbases and label linkbases typed industrySpecific, domainSpecific or entitySpecific"
+    },
+    "explanation": {
+        "nl": "Label linkbases worden vanuit een schema gerefereerd. Dit geldt niet voor de industrySpecific, domainSpecific en entitySpecific label linkbases. Daarom mogen deze ook worden gerefereerd vanuit het entrypoint.",
+        "en": ""
+    },
+    "introduction_date": "2015/12/02",
+    "agreed_date": "2015/12/02",
+    "error_message": {
+        "nl": "Een entrypoint schema MOET alleen linkbaseRefs bevatten naar presentation, definition en generic linkbases en label linkbases van het type industrySpecific, domainSpecific of entitySpecific.",
+        "en": ""
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "testable": false,
+    "section": "XML Schema - Basis"
+}

@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.02.00.35",
+    "name": {
+        "nl": "De extensietaxonomie MOET exact \u00e9\u00e9n schema bevatten.",
+        "en": ""
+    },
+    "explanation": {
+        "nl": "NA",
+        "en": ""
+    },
+    "error_message": {
+        "nl": "",
+        "en": ""
+    },
+    "nta_rule": false,
+    "pe_rule": true,
+    "testable": false,
+    "section": "XML Schema - Basis"
+}

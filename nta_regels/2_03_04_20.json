@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.03.04.20",
+    "name": {
+        "nl": "De combinatie van een typedDimensionAxis en de overige aspecten op een concept MOETEN uniek zijn in tabellen in 1 entrypoint",
+        "en": "The combination of a typedDimensionAxis and the other aspects on a concept MUST be unique in tables in one entry point."
+    },
+    "explanation": {
+        "nl": "Om problemen te voorkomen met het gebruik van tables als invoervelden, moet de combinatie van een typedDimensionAxis en de overige aspecten op een concept uniek zijn in tabellen in 1 entrypoint.",
+        "en": null
+    },
+    "introduction_date": "2016/05/01",
+    "agreed_date": "2016/05/01",
+    "error_message": {
+        "nl": "geen",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "XML Linkbase - Presentatie"
+}

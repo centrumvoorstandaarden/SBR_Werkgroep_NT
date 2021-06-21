@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.02.09.01",
+    "name": {
+        "nl": "Zie 2.02.02.19",
+        "en": "See 2.02.02.19"
+    },
+    "explanation": {
+        "nl": "NTB",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "related": "2.02.02.19",
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "XML Schema - Domeinen en Domeinleden"
+}

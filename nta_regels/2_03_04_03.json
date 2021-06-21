@@ -1,0 +1,21 @@
+{
+    "rule_nr": "2.03.04.03",
+    "name": {
+        "nl": "@preferredLabel in presentatie relaties BEHOREN NIET gebruikt te worden voor semantisch betekenisvolle label rollen (bv. periodStart en periodEnd)",
+        "en": "@preferredLabel on presentation relationships SHOULD NOT be used with semantically meaningfull label roles (e.g. periodStart and periodEnd)"
+    },
+    "explanation": {
+        "nl": "De inzet van extra labelrollen bij de presentatie wordt veelal afgedwongen door @preferredLabel in de presentatie relaties te gebruiken. Door op dit punt specifiek te maken dat er afgeweken moet worden van de standaard label rol, kan een \u2018mooiere\u2019 presentatie van de concepten verwezenlijkt worden. Dus zolang de insteek de DTS is, werkt deze aanpak. Is de insteek echter de instance, dan kan de software niet de juiste labelrol ophalen omdat daar alleen de QName van het concept beschikbaar is en niet de gebruikte labelrol.\nHet gebruik van @preferredLabel in de P-linkbase wordt alleen toegestaan indien expliciet gemaakt wordt in de 'Business Rules' dat de semantiek van het label waarnaar verwezen wordt NIET geldt voor het concept in de instance.\nSoftware die de presentatie linkbase hanteren om de DTS of instance te tonen op scherm of print, MOETEN in het geval een gevulde @preferredLabel gevonden wordt, de juiste label resource tonen in plaats van de standaard label.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "decommission_date": "2019/12/10",
+    "related": "Gebruik_van_preferredLabel",
+    "error_message": {
+        "nl": "@preferredLabel in presentatie relaties BEHOREN NIET gebruikt te worden voor semantisch betekenisvolle label rollen (bv. periodStart en periodEnd)",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "XML Linkbase - Presentatie"
+}

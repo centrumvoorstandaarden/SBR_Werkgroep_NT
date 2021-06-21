@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.03.04.05",
+    "name": {
+        "nl": "<link:presentationArc/@order> MOET uniek zijn per ouder element per linkrole, als er meer dan \u00e9\u00e9n ontdekt worden",
+        "en": "<link:presentationArc/@order> MUST be unique per parent element per linkrole, if there is more than one discovered"
+    },
+    "explanation": {
+        "nl": "De combinatie van linkrole, ouder element en @order maakt de presentatie relatie uniek. Omdat de linkrole en ouder element vaker zullen voorkomen is de @order de enige mogelijkheid uniciteit te cre\u00ebren. Dit is nodig om presentatie software te helpen een juiste volgorde van kinderen binnen een ouder elementen te laten presenteren.",
+        "en": null
+    },
+    "introduction_date": "2011/04/06",
+    "error_message": {
+        "nl": "link:presentationArc/@order MOET uniek zijn per ouder element per linkrole, als er meer dan \u00e9\u00e9n ontdekt worden",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "references": "GFM 1.6.2",
+    "section": "XML Linkbase - Presentatie"
+}

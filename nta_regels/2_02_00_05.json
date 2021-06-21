@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.02.00.05",
+    "name": {
+        "nl": "Een schema MOET NIET meer dan \u00e9\u00e9n XML comment node bevatten",
+        "en": "A schema MUST NOT contain more than one XML comment node"
+    },
+    "explanation": {
+        "nl": "Commentaarregels zijn onnodig voor computer verwerking en derhalve bedoeld voor menselijke consumptie. Er is geen doelstelling van NT Schema\u00b4s om door mensen gelezen te worden. Daarmee wordt, afgezien van het onder 2.02.00.03 gestelde, het niet toegestaan om commentaarregels op te  nemen. Detail: de tekst onder 2.02.00.03 kan zowel in \u00e9\u00e9n als meerdere commentaar regels opgenomen worden. Deze regel zorgt voor het consistente beeld dat er slechts \u00e9\u00e9n XML commentaarsectie zal zijn (wat dus niet wegneemt dat er wel CR/LF tekens gebruikt kunnen worden).",
+        "en": ""
+    },
+    "introduction_date": "2010/06/23",
+    "error_message": {
+        "nl": "XML Schema MOET NIET meer dan \u00e9\u00e9n XML comment node bevatten",
+        "en": ""
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "testable": false,
+    "section": "XML Schema - Basis"
+}

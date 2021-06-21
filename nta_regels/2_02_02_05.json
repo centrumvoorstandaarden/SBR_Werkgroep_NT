@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.02.02.05",
+    "name": {
+        "nl": "<xs:element> MOET NIET gebruikt worden om nieuwe abstract elementen te maken die als substitutionGroup voor andere elementen dienen UITGEZONDERD bij SBR-NT-beheer voor de NT",
+        "en": "<xs:element> MUST NOT be used to create new abstract elements that will serve as substitutionGroup for other elements, EXCEPT for SBR-Dutch Taxonomy-management"
+    },
+    "explanation": {
+        "nl": "De inzet van @substitutionGroup voor andere elementen dan door XII gespecificeerd, is voorbehouden tot SBR-NT-beheer. Indien een partij hieraan behoefte heeft kan dit aangevraagd worden waarna het een onderwerp wordt in het NT overleg.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "related": "4.01.041",
+    "error_message": {
+        "nl": "//xs:element/@substitutionGroup MOET Qnames van xbrli of sbr namespace bevatten",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "XML Schema - Concepten"
+}

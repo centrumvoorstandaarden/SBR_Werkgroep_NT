@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.03.00.15",
+    "name": {
+        "nl": "Een linkbase MOET NIET roleRef en arcroleRef elementen declareren die niet gebruikt worden in de linkbase",
+        "en": "A linkbase MUST NOT declare roleRef and arcroleRef elements that are not being used in the linkbase"
+    },
+    "explanation": {
+        "nl": "Technisch is het valide om een linkbase te hebben met ongebruikte roleRef en arcroleRef elementen. Deze voegen echter niets toe aan de werking van de DTS.",
+        "en": null
+    },
+    "introduction_date": "2015/12/02",
+    "agreed_date": "2015/12/02",
+    "error_message": {
+        "nl": "XML Linkbase MOET NIET ongebruikte roleRef en arcroleRef elementen declareren",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "XML Linkbase - Basis"
+}

@@ -1,0 +1,19 @@
+{
+    "rule_nr": "3.02.11.03",
+    "name": {
+        "nl": "Een @xlink:label MOET alleen a-zA-Z0-9_-. tekens gebruiken",
+        "en": "@xlink:label names MUST use a-zA-Z0-9_-. characters only"
+    },
+    "explanation": {
+        "nl": "NA",
+        "en": null
+    },
+    "introduction_date": "2010/11/17",
+    "error_message": {
+        "nl": "Een @xlink:label MOET alleen a-zA-Z0-9_-. tekens gebruiken",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "Naamgeving - @xlink:label (op locator en resource)"
+}

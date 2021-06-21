@@ -1,0 +1,21 @@
+{
+    "rule_nr": "2.01.00.10",
+    "name": {
+        "nl": "Een taxonomie document in de NT MOET onderdeel zijn van een DTS",
+        "en": "A taxonomy document in the NT MUST be part of a DTS"
+    },
+    "explanation": {
+        "nl": "Technisch is het valide om een document te hebben dat geen onderdeel is van een DTS. Deze documenten voegen echter niets toe aan de werking van de DTS.",
+        "en": ""
+    },
+    "introduction_date": "2015/12/02",
+    "agreed_date": "2015/12/02",
+    "error_message": {
+        "nl": "Een taxonomie document in de NT MOET onderdeel zijn van een DTS",
+        "en": ""
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "testable": false,
+    "section": "Algemeen"
+}

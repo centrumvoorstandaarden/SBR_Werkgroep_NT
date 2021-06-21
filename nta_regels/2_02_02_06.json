@@ -1,0 +1,22 @@
+{
+    "rule_nr": "2.02.02.06",
+    "name": {
+        "nl": "VERVALLEN Niet abstracte items als kinderen van een tuple MOETEN identieke @xbrli:periodType waarden hebben, daar waar de waarde \u2018instant\u2019 voorkomt is deze bepalend boven de \u2018duration\u2019 waarden UITGEZONDERD NT Partijen die middels XML Schema het aantal herhalingen van concepten af willen dwingen, deze kunnen daar een eigen root tuple voor defini\u00ebren. Alle concepten MOETEN in dit geval onder deze root tuple vallen (eventueel genest) en de regel rond @xbrli:periodType geldt niet voor deze bijzondere root tuple.",
+        "en": "EXPIRED Non abstract items defined as child of a tuple MUST carry identical @periodType values, where the value \u2019instant\u2019 is leading over the value \u2018duration\u2019. EXCEPT for Dutch Taxonomy partners who want to reduce the number repetitions of concepts through XML Schedule, they can define their own root tuple. All concepts MUST be (grand)child to this root tuple and the aforementioned rule about the xbrli:periodType does not apply to this special root tuple."
+    },
+    "explanation": {
+        "nl": "Omdat kinderen van een tuple altijd een semantische samenhang moeten hebben kan het niet zijn dat zij in verschillende contexten gerapporteerd worden. Dit zou wel het geval zijn als de kinderen verschillende @periodType waarden zouden kennen.\n*De root tuple oplossing is gekunsteld en moet verdwijnen, wellicht dat dimensies of formules dit oplossen",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "decommission_date": "2011/05/04",
+    "related": "2.02.02.29, 2.04.00.03",
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "references": "FRTA 2.2.8",
+    "section": "XML Schema - Concepten"
+}

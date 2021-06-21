@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.02.11.02",
+    "name": {
+        "nl": "<xs:annotation><xs:documentation> MOET NIET gebruikt worden",
+        "en": "<xs:annotation><xs:documentation> MUST NOT be used"
+    },
+    "explanation": {
+        "nl": "Documentatie in de NT wordt verzorgd door labels en references en is dus niet op een alternatieve manier toegestaan.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "related": "4.01.037",
+    "error_message": {
+        "nl": "xs:annotationxs:documentation MOET NIET gebruikt worden",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "XML Schema - Overig"
+}

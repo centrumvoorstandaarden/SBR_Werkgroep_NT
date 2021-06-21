@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.03.10.13",
+    "name": {
+        "nl": "Een <link:resource> met @xlink:type=\"extended\", MOET een @xlink:role hebben",
+        "en": "A <link:resource> with @type=\"extended\", MUST have @xlink:role"
+    },
+    "explanation": {
+        "nl": "Geen vermelding verwijst naar de standaard role. De NT wil alleen expliciete informatie verstrekken. Geldige waarden komen uit de XBRL specificaties of de LRR. In NT domeinen aangemaakte roles zijn niet toegestaan. Benodigde extra roles kunnen worden aangevraagd bij SBR-NT-beheer.",
+        "en": null
+    },
+    "introduction_date": "2011/04/06",
+    "error_message": {
+        "nl": "Een link:resource met @xlink:type=\"extended\", MOET een @xlink:role hebben",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "references": "GFM 1.4.4",
+    "section": "XML Linkbase - Overig"
+}

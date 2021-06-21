@@ -1,0 +1,19 @@
+{
+    "rule_nr": "3.02.07.17",
+    "name": {
+        "nl": "Het woord \"Overig(e)\" MAG NIET als solitair standaard label gebruikt worden",
+        "en": "The word \"Other\" MUST NOT be used as a separate standard label"
+    },
+    "explanation": {
+        "nl": "NA",
+        "en": null
+    },
+    "introduction_date": "2010/11/17",
+    "error_message": {
+        "nl": "Het woord &quot;Overig(e)&quot; MOET NIET als solitair standaard label gebruikt worden",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "Naamgeving - Element Standaard label"
+}

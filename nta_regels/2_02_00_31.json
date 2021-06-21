@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.02.00.31",
+    "name": {
+        "nl": "Elementen bedoeld voor het opnemen van een afbeelding MOETEN het datatype nl-types:imageItemType hanteren.",
+        "en": ""
+    },
+    "explanation": {
+        "nl": "NA",
+        "en": ""
+    },
+    "error_message": {
+        "nl": "",
+        "en": ""
+    },
+    "nta_rule": false,
+    "pe_rule": true,
+    "testable": false,
+    "section": "XML Schema - Basis"
+}

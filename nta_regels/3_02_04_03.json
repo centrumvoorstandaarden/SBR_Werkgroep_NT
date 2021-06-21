@@ -1,0 +1,20 @@
+{
+    "rule_nr": "3.02.04.03",
+    "name": {
+        "nl": "Een namespace prefix die door een internationale specificatie stellende partij (als de W3C en XII) is gedeclareert, MOET NIET geherdefinieerd worden",
+        "en": "Namespace prefix\" that are reserved by organizations for international specifications (e.g.. W3X and XII), MUST NOT be redefined"
+    },
+    "explanation": {
+        "nl": "Consistent gebruik van de namespace prefix.",
+        "en": null
+    },
+    "introduction_date": "2010/11/17",
+    "error_message": {
+        "nl": "Een namespace prefix die door een internationale specificatie stellende partij (als de W3C en XII) is gedeclareert, MOET NIET geherdefinieerd worden",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "references": "[http://www.xbrl.org/Specification/XBRL-RECOMMENDATION-2003-12-31+Corrected-Errata-2008-07-02.htm#_1.6  XBRL 2.1]",
+    "section": "Naamgeving - Namespace prefix"
+}

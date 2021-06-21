@@ -1,0 +1,21 @@
+{
+    "rule_nr": "2.02.00.16",
+    "name": {
+        "nl": "xs:schema/xs:import/@schemaLocation MOET gebruik maken van absolute URIs voor bestanden buiten een versie van de NT of buiten de PE-schema",
+        "en": "xs:schema/xs:import/@schemaLocation MUST use absolute URIs for files outside a version of the DTS"
+    },
+    "explanation": {
+        "nl": "De NT ZIP zal schema\u2019s van niet SBR deelnemers, die geadresseerd worden door <xs:import>, niet meeleveren en daarom moet de URI naar een absolute locatie verwijzen om de betreffende schema\u2019s op te kunnen halen.",
+        "en": ""
+    },
+    "introduction_date": "2010/06/23",
+    "related": "4.01.074",
+    "error_message": {
+        "nl": "",
+        "en": ""
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "testable": false,
+    "section": "XML Schema - Basis"
+}

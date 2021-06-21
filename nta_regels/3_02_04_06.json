@@ -1,0 +1,19 @@
+{
+    "rule_nr": "3.02.04.06",
+    "name": {
+        "nl": "Namespace prefix' BEHOREN niet langer te zijn dan 20 tekens",
+        "en": "Namespace prefix' SHOULD not exceed 20 characters"
+    },
+    "explanation": {
+        "nl": "NA",
+        "en": null
+    },
+    "introduction_date": "2010/11/17",
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "Naamgeving - Namespace prefix"
+}

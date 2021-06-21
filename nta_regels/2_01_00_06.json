@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.01.00.06",
+    "name": {
+        "nl": "De NT MOET NIET refereren aan externe DTS'n die niet geautoriseerd zijn door SBR-NT-beheer",
+        "en": "The Dutch Taxonomy MUST NOT refer to external DTSs which are not authorised by SBR-Dutch Taxonomy management"
+    },
+    "explanation": {
+        "nl": "Partijen die een behoefte hebben om te refereren aan XBRL bouwstenen van buiten de NT (bv. IFRS), moeten dit melden bij SBR-NT-beheer, die het onderwerp op de agenda van het NT overleg zet. Bij dit soort verwijzingen dienen overwegingen gemaakt te worden of de gerefereerde taxonomie wellicht meegeleverd gaat worden met de NT om de snelheid waarmee de NT geladen kan worden door gebruikers positief te be\u00efnvloeden.",
+        "en": ""
+    },
+    "introduction_date": "2010/06/23",
+    "error_message": {
+        "nl": "",
+        "en": ""
+    },
+    "nta_rule": false,
+    "pe_rule": false,
+    "testable": false,
+    "section": "Algemeen"
+}

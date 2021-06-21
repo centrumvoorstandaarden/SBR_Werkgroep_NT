@@ -1,0 +1,19 @@
+{
+    "rule_nr": "3.02.05.19",
+    "name": {
+        "nl": "VERVALLEN: Concepten in de substitutionGroup specificationTuple MOETEN een achtervoegsel \u2018Specification\u2019 in de naam krijgen",
+        "en": "REMOVED: Concepts in de substitutionGroup specificationTuple MUST have the suffix 'Specification' on their name"
+    },
+    "explanation": {
+        "nl": "NA",
+        "en": null
+    },
+    "decommission_date": "2011/09/28",
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "Naamgeving - Element @name"
+}

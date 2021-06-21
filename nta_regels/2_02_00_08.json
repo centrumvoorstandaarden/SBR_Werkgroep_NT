@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.02.00.08",
+    "name": {
+        "nl": "Een schema MOET een @targetNamespace hebben",
+        "en": "A schema MUST have a @targetNamespace"
+    },
+    "explanation": {
+        "nl": "De XML Schema specificatie maakt het mogelijk om te werken met het @noTargetNamespace attribuut, waardoor effectief geen targetNamespace aan een schema wordt toebedeeld. Aangezien voor extenders van de NT de enige mogelijkheid om elementen in een schema te adresseren als deze uitgerust is met een namespace, is het gebruik van dit speciale attribuut niet toegestaan.",
+        "en": ""
+    },
+    "introduction_date": "2010/06/23",
+    "error_message": {
+        "nl": "XML Schema MOET een @targetNamespace hebben",
+        "en": ""
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "testable": false,
+    "section": "XML Schema - Basis"
+}

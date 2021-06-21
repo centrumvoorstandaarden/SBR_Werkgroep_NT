@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.01.00.12",
+    "name": {
+        "nl": "De PE MOET NIET refereren aan DTS'n die niet zijn geautoriseerd door de uitvragende partij.",
+        "en": ""
+    },
+    "explanation": {
+        "nl": "PE regel",
+        "en": ""
+    },
+    "related": "2.01.00.06",
+    "error_message": {
+        "nl": "nvt",
+        "en": ""
+    },
+    "nta_rule": false,
+    "pe_rule": true,
+    "testable": false,
+    "section": "Algemeen"
+}

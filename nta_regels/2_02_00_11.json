@@ -1,0 +1,21 @@
+{
+    "rule_nr": "2.02.00.11",
+    "name": {
+        "nl": "Een schema MOET NIET namespaces declareren die niet gebruikt worden in het schema UITGEZONDERD de namespace van een schema waarin een domein-type van een typed dimensie is opgenomen.",
+        "en": "A schema MUST NOT declare namespaces that are not being used in the schema EXCEPT for the namespace of a schema defining the domain-type of a typed dimension."
+    },
+    "explanation": {
+        "nl": "Ongebruikte namespaces voegen niets toe aan de werking van de DTS.",
+        "en": ""
+    },
+    "introduction_date": "2010/06/23",
+    "error_message": {
+        "nl": "XML Schema MOET NIET ongebruikte namespaces declareren",
+        "en": ""
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "references": "SBR Australi\u00eb: 27 SA",
+    "testable": false,
+    "section": "XML Schema - Basis"
+}

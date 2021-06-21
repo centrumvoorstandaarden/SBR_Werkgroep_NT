@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.03.00.01",
+    "name": {
+        "nl": "Een linkbase MOET opgesteld zijn conform W3C XLink 1.0 Specificatie",
+        "en": "A linkbase MUST comply with W3C XLink Specification 1.0"
+    },
+    "explanation": {
+        "nl": "XLink 1.1 wordt (nog) niet ondersteund.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "references": "GFM2.0: 1.4.1",
+    "section": "XML Linkbase - Basis"
+}

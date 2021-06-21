@@ -1,0 +1,21 @@
+{
+    "rule_nr": "2.01.00.03",
+    "name": {
+        "nl": "Elk NT entrypoint schema MOET een toegestane periode van rapporteren bekend maken bij SBR-NT-beheer",
+        "en": "Each Dutch Taxonomy entry point schema MUST publish the permitted period of reporting with SBR-Dutch Taxonomy-Management"
+    },
+    "explanation": {
+        "nl": "De NT wordt door de rapporteurs benaderd middels de entrypoints; de report schema\u2019s die een formulier of rapportage vertegenwoordigen. De geldigheid van dergelijke entrypoints kan niet bijgehouden worden in de taxonomie zelf en daarom moeten partijen, die een dergelijk entrypoint in de NT op (laten) nemen, bij Logius bekend maken gedurende welke periode er instances door de Digipoort toegelaten worden die verwijzen naar het entrypoint. De informatie wordt getoond op de sbr-nl website.",
+        "en": ""
+    },
+    "introduction_date": "2010/06/23",
+    "error_message": {
+        "nl": "nvt",
+        "en": ""
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "references": "SBR-Australi\u00eb: 46 DI",
+    "testable": false,
+    "section": "Algemeen"
+}

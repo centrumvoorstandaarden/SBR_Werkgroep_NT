@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.03.10.14",
+    "name": {
+        "nl": "link:resource/@xlink:role MOET een XBRL International of SBR verwijzing bevatten",
+        "en": "link:resource/@xlink:role MUST have XII or SBR content"
+    },
+    "explanation": {
+        "nl": "Custom roles kunnen alleen door Logius beheer aangemaakt worden.",
+        "en": null
+    },
+    "introduction_date": "2011/04/06",
+    "related": "2.03.10.13",
+    "error_message": {
+        "nl": "link:resource/@xlink:role MOET een XBRL International of SBR verwijzing bevatten",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "XML Linkbase - Overig"
+}

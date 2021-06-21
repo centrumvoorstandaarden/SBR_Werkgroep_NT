@@ -1,0 +1,19 @@
+{
+    "rule_nr": "3.02.07.23",
+    "name": {
+        "nl": "VERVALLEN: Een standaard label van een abstracte concept MOET een achtervoegsel hebben die het gebruik weergeeft",
+        "en": "REMOVED: Standard labels on abstract concepts MUST have a suffix that refers to the use of the concept"
+    },
+    "explanation": {
+        "nl": "NA",
+        "en": null
+    },
+    "decommission_date": "2011/09/28",
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "Naamgeving - Element Standaard label"
+}

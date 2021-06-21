@@ -1,0 +1,19 @@
+{
+    "rule_nr": "3.02.01.05",
+    "name": {
+        "nl": "Bestandsnamen MOETEN in lowercase",
+        "en": "File names MUST be lower case"
+    },
+    "explanation": {
+        "nl": "NA",
+        "en": null
+    },
+    "introduction_date": "2010/11/17",
+    "error_message": {
+        "nl": "Bestandsnamen MOETEN in lowercase",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "Naamgeving - Bestanden en directories"
+}

@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.04.03.01",
+    "name": {
+        "nl": "Facts MOETEN NIET dubbel voorkomen (dubbel als in: gelijke item, context verwijzing, unit verwijzing)",
+        "en": "Facts MUST NOT be present more than once (more than once as in: identical item, context reference, unit reference)"
+    },
+    "explanation": {
+        "nl": "''Deze regel is nog niet van kracht en moet nog besproken worden''",
+        "en": null
+    },
+    "decommission_date": "2011/01/01",
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "XBRL Instance - facts"
+}

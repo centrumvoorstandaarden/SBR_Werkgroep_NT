@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.03.04.16",
+    "name": {
+        "nl": "Labels voor tables MOETEN door taal en tabel gescheiden separate linkbases opgenomen worden.",
+        "en": "Labels for tables MUST be included in by language and table devided separate link bases."
+    },
+    "explanation": {
+        "nl": "De labels voor tables moeten per tabel in een aparte table label linkbbase gegeven worden. Alle labels die gegeven worden over een tabel worden in een linkbase gegeven, gescheiden per taal. \nDe table label linkbases bevat alleen tabel labels. De meeste headers komen uit presentatie en definitie linkbases. Het aantal labels per table zal dus beperkt blijven.\n\nConform best practice 'Refereren aan niet-standaard linkbases' worden de label linkbases gerefereerd vanuit het entrypoint schema.",
+        "en": null
+    },
+    "introduction_date": "2016/05/01",
+    "agreed_date": "2016/05/01",
+    "error_message": {
+        "nl": "geen",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "XML Linkbase - Presentatie"
+}

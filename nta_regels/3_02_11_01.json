@@ -1,0 +1,19 @@
+{
+    "rule_nr": "3.02.11.01",
+    "name": {
+        "nl": "Een @xlink:label voor een locator BEHOORT te bestaan uit de @id van de gerefereerde XML node, een underscore gevolgd door de tekens \u2018loc\u2019",
+        "en": "Locator @xlink:label names SHOULD be constructed from: @id from the XML node, underscore, \"loc\""
+    },
+    "explanation": {
+        "nl": "NA",
+        "en": null
+    },
+    "introduction_date": "2012/05/01",
+    "error_message": {
+        "nl": "Een @xlink:label voor een locator BEHOORT te bestaan uit de @id van de gerefereerde XML node, een underscore gevolgd door de tekens \u2018loc\u2019",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "Naamgeving - @xlink:label (op locator en resource)"
+}

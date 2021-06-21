@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.02.01.01",
+    "name": {
+        "nl": "Een schema MOET \u00e9\u00e9n functie ondersteunen:\n*DTS entrypoint \n*linkrole creatie\n*arcrole creatie\n*link:part creatie\n*context element creatie\n*abstracte presentatie item creatie\n*type creatie\n*enumeratie creatie\n*dimensie (as) creatie\n*domein en domeinlid creatie\n*hypercube (tabel) creatie\n\nUITGEZONDERD:\n*tuple creatie",
+        "en": "A schema MUST be a DTS entrypoint OR define linkroles OR arcroles OR link:parts OR context fragments OR abstract items OR types OR enumerations OR dimensions OR domain(member)s OR hypercubes, NO mixing EXCEPT for tuples."
+    },
+    "explanation": {
+        "nl": "Elke XML node die aangemaakt wordt, wordt op basis van zijn functie in een apart schema gezet. Deze aanpak geeft de meeste vrijheid aan eventuele extenders van de NT om die onderdelen te selecteren die nodig zijn om de extensie vorm te geven. Bovendien effent deze de aanpak de weg naar een vereenvoudigde manier van het omgaan met nieuwe of verbeterde versies van onderdelen van de NT.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "error_message": {
+        "nl": "Elk XML Schema MOET maximaal een DTS bouwsteensoort aanmaken, UITGEZONDERD tuples",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "references": "SBR Australi\u00eb: 20 DI / 50 DI / 51 DI / 52 DI / 53 SA / 54 DI",
+    "section": "XML Schema - XLink"
+}

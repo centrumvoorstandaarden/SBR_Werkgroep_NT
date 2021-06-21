@@ -1,0 +1,19 @@
+{
+    "rule_nr": "3.02.03.04",
+    "name": {
+        "nl": "xs:schema/@targetNamespace MOET alleen a-z0-9_-/.: tekens gebruiken",
+        "en": "xs:schema/@targetNamespace MUST use only a-z0-9_-/.: characters"
+    },
+    "explanation": {
+        "nl": "Geen niet-latijnse tekens toestaan.",
+        "en": null
+    },
+    "introduction_date": "2010/11/17",
+    "error_message": {
+        "nl": "xs:schema/@targetNamespace MOET alleen a-z0-9_-/.: tekens gebruiken",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "Naamgeving - Namespace URI"
+}

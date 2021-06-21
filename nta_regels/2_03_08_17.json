@@ -1,0 +1,18 @@
+{
+    "rule_nr": "2.03.08.17",
+    "name": {
+        "nl": "Labels moeten door taal gescheiden in seperate linkbases opgenomen worden. Indien er verschillende soorten labels \u00a0gegeven worden(terse, total, documentation etc.) MOETEN deze samen in \u00e9\u00e9n label linkbase gegeven worden (per taal).",
+        "en": null
+    },
+    "explanation": {
+        "nl": "NA",
+        "en": null
+    },
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "nta_rule": false,
+    "pe_rule": true,
+    "section": "XML Linkbase - Labels"
+}

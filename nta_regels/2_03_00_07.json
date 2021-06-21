@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.03.00.07",
+    "name": {
+        "nl": "Een linkbase MOET @xsi:schemaLocation gebruiken om schema inhoud te adresseren binnen de linkbase UITGEZONDERD de W3C XML schema en XBRL XLink schema\u00b4s",
+        "en": "A linkbase MUST use @xsi:schemaLocation for schema content being addressed inside the linkbase EXCEPT the W3C XML schema and XBRL XLink schemas"
+    },
+    "explanation": {
+        "nl": "Elke linkbase dient als een zelfstandig valide bestand aangeroepen te kunnen worden door XBRL enabled software. Bij dergelijke software worden W3C en XBRL-XLink schema\u2019s default geladen waardoor daar geen verwijzing (schemaLocation) voor aangewezen hoeft te worden. Voor alle andere XML nodes die gebruikt worden in de linkbase moet naast de prefix declaratie derhalve ook een <u>absolute</u> schemaLocation aangewezen worden.\nDoor de linkbases zelfstandig te maken wordt voorkomen dat er fouten in het validatieproces optreden bij het aanroepen van linkbases door meerdere schema\u2019s.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "error_message": {
+        "nl": "XML Linkbase MOET xsi:schemaLocation gebruiken, UITGEZONDERD W3C xml schema en XBRL 2.1 basis schema&quot;s",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "XML Linkbase - Basis"
+}

@@ -1,0 +1,17 @@
+{
+    "rule_nr": "2.03.09.07",
+    "name": {
+        "nl": "Messages, labels en references van een formule MOETEN in separate linkbases opgenomen worden, gescheiden per taal",
+        "en": "Formula messages labels and references MUST be in separate linkbases, per language"
+    },
+    "explanation": {
+        "nl": "Messages die met variabelen werken kunnen hergebruikt worden door diverse formules en zullen derhalve een andere onderhoudscyclus kennen. Daarnaast zijn messages, labels en references in de gehele NT in gescheiden linkbases opgeslagen.",
+        "en": null
+    },
+    "introduction_date": "2016/05/01",
+    "error_message": {
+        "nl": "Messages, labels en references van een formule MOETEN in separate linkbases opgenomen worden, gescheiden per taal",
+        "en": null
+    },
+    "section": "XML Linkbase - Controle regels"
+}

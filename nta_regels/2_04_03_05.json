@@ -1,0 +1,21 @@
+{
+    "rule_nr": "2.04.03.05",
+    "name": {
+        "nl": "Tuple kinderen mogen geen context verwijzingen bevatten in dezelfde tuple waarvan de inhoud verschillend is in de <xbrli:entity>, <xbrli:segment> of <xbrli:scenario>",
+        "en": "Tuple children from the same tuple occurrence MUST NOT refer contexts that have different content in <xbrli:entity>, <xbrli:segment> or <xbrli:scenario>"
+    },
+    "explanation": {
+        "nl": "Indien entity, segment of scenario een afwijkende waarde bevat wordt het tuple kind in feite gesplitst waardoor de groeperingsfunctie van de tuple teniet gedaan wordt.",
+        "en": null
+    },
+    "introduction_date": "2011/05/04",
+    "decommission_date": "2011/01/01",
+    "related": "2.02.02.06, 2.02.02.29",
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "XBRL Instance - facts"
+}

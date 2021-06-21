@@ -1,0 +1,17 @@
+{
+    "rule_nr": "2.03.06.05",
+    "name": {
+        "nl": "De arcrole dimension-default MOET NIET gebruikt worden",
+        "en": "The arcrole dimension-default MUST NOT be used"
+    },
+    "explanation": {
+        "nl": "De dimensie-default zorgt ervoor dat primaries die in een instance zonder dimensie worden gerapporteerd t\u00f3ch een dimensie en domeinlid waarde gekoppeld krijgen. XBRL Formules houdt hier rekening mee, maar hiermee is een impliciete waarde geintroduceerd in de instance waarvan veel rapporteurs zich niet bewust zullen zijn. Om problemen bij de verwerking van instances te voorkomen is deze constructie verboden.",
+        "en": null
+    },
+    "introduction_date": "2011/04/06",
+    "error_message": {
+        "nl": "Arcrole &quot;dimension-default&quot; MOET NIET gebruikt worden",
+        "en": null
+    },
+    "section": "XML Linkbase - Dimensies"
+}

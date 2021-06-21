@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.03.07.02",
+    "name": {
+        "nl": "VERVALLEN; Abstracte items die als domeinlid gebruikt worden MOETEN genest worden onder een abstract item dat een domein is",
+        "en": "REMOVED; Abstract items used as domain member MUST be nested under an abstract item that is a domain"
+    },
+    "explanation": {
+        "nl": "Technisch is het mogelijk domeinleden rechtstreeks te koppelen aan een dimensie. Op het moment dat er maar \u00e9\u00e9n domeinlid in aanmerking zou komen dan is hiervoor ook een punt te maken. Maar meestal vormen groepen van domeinleden een functionele eenheid die in een dimensie van toepassing verklaard worden. Om het aantal relaties aan de dimensie te beperken en de functionele eenheid inzichtelijk te maken wordt een domein tussen de dimensie en domeinleden opgenomen.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "related": "2.03.07.01",
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "XML Linkbase - Domeinen en Domeinleden"
+}

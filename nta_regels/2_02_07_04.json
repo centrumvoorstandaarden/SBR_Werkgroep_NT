@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.02.07.04",
+    "name": {
+        "nl": "<xs:enumeration> MOET <xs:restriction base= xbrli:stringItemType/> gebruiken als deze als type voor een concept gebruikt wordt",
+        "en": "<xs:enumeration> MUST use <xs:restriction base=xbrli:stringItemType/> if it is being used as type definition for a concept"
+    },
+    "explanation": {
+        "nl": "De toegestane waarden van een enumeratie moeten op een datatype gebaseerd worden. Om te voorkomen dat extenders of analisten van instances de waarden van een enumeratie gaan verwerken in business rules waarbij de kenmerken van numerieke waarden meegenomen worden mogen deze waarden niet op numeriek, datum of anderszins gebaseerd zijn. Voor consistentie is besloten alleen de string type zoals die door XBRL gedefinieerd is als basis te gebruiken.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "error_message": {
+        "nl": "Enumeraties MOETEN xbrli:stringItemType gebaseerd zijn",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "XML Schema - Type & Enumeraties"
+}

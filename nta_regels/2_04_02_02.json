@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.04.02.02",
+    "name": {
+        "nl": "Instances MOETEN GEEN ongebruikte units bevatten (XII-FRIS 2.7.2)",
+        "en": "Instances MUST NOT contain unused contexts  (XII-FRIS 2.7.2)"
+    },
+    "explanation": {
+        "nl": "''Deze regel is nog niet van kracht en moet nog besproken worden''",
+        "en": null
+    },
+    "decommission_date": "2011/01/01",
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "XBRL Instance - xbrli:unit"
+}

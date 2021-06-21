@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.02.02.33",
+    "name": {
+        "nl": "De \"model groups\" @sequence en @choice als kind van een tuple content MOETEN een @minOccurs met de waarde \u00e9\u00e9n hebben INDIEN er maar \u00e9\u00e9n model group aanwezig is in het content model. @maxOccurs MAG een waarde hoger dan \u00e9\u00e9n hebben indien dit nodig is om een herhaling vanwege tijdsaspecten te ondersteunen.",
+        "en": "Model groups like @sequence and @choice as tuple children content MUST have @minOccurs=1 IF only one model group exists in the content model. @maxOccurs MAY have a value higher than one if the repetition is needed in the instance for expressing time differences."
+    },
+    "explanation": {
+        "nl": "Een tuple content waarbij een groep kinderen door het gebruik van sequence en choice = 0 optioneel is, is nutteloos. De individuele kinderen kunnen optioneel zijn, niet allen als een groep, tenzij er meerdere groepen van kinderen zijn. Hogere waarden dan \u00e9\u00e9n zijn alleen toegestaan om herhaling van kinderen mogelijk te maken waarbij \"tijd\" in de instance een rol speelt. Normaliter maakt gebruik van @minOccurs=0 en @maxOccurs>0 alleen maar \nonduidelijk waar \"de nieuwe groep\" begint. Voor dit soort gevallen moet de tuple als geheel herhaald worden.",
+        "en": null
+    },
+    "introduction_date": "2011/04/06",
+    "related": "4.01.026, 4.01.125",
+    "error_message": {
+        "nl": "@choice en @sequence MOETEN @minOccurs=&quot;1&quot; hebben INDIEN er maar een in het contentmodel aanwezig is",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "XML Schema - Concepten"
+}

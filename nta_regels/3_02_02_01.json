@@ -1,0 +1,20 @@
+{
+    "rule_nr": "3.02.02.01",
+    "name": {
+        "nl": "Een NT domein MOET de aan toegedeelde lettercombinatie gebruiken conform tabel C",
+        "en": "Each Dutch Taxonomy domain MUST use the assigned code conform table C"
+    },
+    "explanation": {
+        "nl": "Elke NT partner krijgt een identificatie van maximaal vijf letters, dit geldt dus niet voor externe partijen die een taxonomie aanbieden die door de NT gebruikt wordt.Deze afkorting wordt gebruikt om de mappen waarin de bestanden worden opgeslagen herkenbaar aan de deelnemer toe te wijzen, maar ook om de namespace prefix en linkrole @id vorm te geven.",
+        "en": null
+    },
+    "introduction_date": "2010/11/17",
+    "related": "3.02.01.14, NT_Naamgeving#Tabel_C:_NT_Partij_afkortingen_voor_gebruik_in_XML",
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "Naamgeving - NT Partners"
+}

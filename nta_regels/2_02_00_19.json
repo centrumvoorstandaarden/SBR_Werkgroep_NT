@@ -1,0 +1,21 @@
+{
+    "rule_nr": "2.02.00.19",
+    "name": {
+        "nl": "Een schema MOET NIET namespaceprefixes declareren op element niveau",
+        "en": "A schema MUST NOT declare namespace prefixes on element level"
+    },
+    "explanation": {
+        "nl": "Het is in de XML Schema specificatie toegestaan om op element niveau het @xml:base te gebruiken waarmee de namespace declaratie voor het betreffende element veranderd kan worden. Omdat er geen goede gronden zijn om meerdere prefixes voor dezelfde namespace te hanteren EN om eenvoudig en helder te houden welke namespaces gebruikt worden in een schema, wordt slechts \u00e9\u00e9n plek voor het declareren in een schema bestand toegestaan.",
+        "en": ""
+    },
+    "introduction_date": "2010/06/23",
+    "error_message": {
+        "nl": "XML Schema MOET NIET @base gebruiken",
+        "en": ""
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "references": "SBR-AU: 28 SAGFM2.0: 1.1.7http://www.w3.org/TR/xmlbase/#syntax",
+    "testable": false,
+    "section": "XML Schema - Basis"
+}

@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.02.02.21",
+    "name": {
+        "nl": "xs:schema/xs:element/@type=\"xbrli:stringItemType als xs:schema/xs:element/@abstract=\"true\"",
+        "en": "xs:schema/xs:element/@type=\"xbrli:stringItemType if xs:schema/xs:element/@abstract=\"true\""
+    },
+    "explanation": {
+        "nl": "Door regel 2.02.02.20 moeten ook abstracte concepten voorzien worden van een datatype. Aangezien er geen werking van het datatype op abstracte concepten is, voldoet elke waarde. Voor consistentie is gekozen voor het string itemType.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "related": "2.02.02.20",
+    "error_message": {
+        "nl": "Abstracte items MOETEN xbrli:stringItemType als hun type hebben",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "XML Schema - Concepten"
+}

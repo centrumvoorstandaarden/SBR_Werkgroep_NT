@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.03.10.11",
+    "name": {
+        "nl": "link:roleType/@id MOET gebruikt worden",
+        "en": "link:roleType/@id MUST be used"
+    },
+    "explanation": {
+        "nl": "Verplicht om een koppeling naar een Generic Label Linkbase mogelijk te maken en verklarende labels aan de arcrole te koppelen.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "error_message": {
+        "nl": "link:roleType/@id MOET gebruikt worden",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "XML Linkbase - Overig"
+}

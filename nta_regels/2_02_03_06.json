@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.02.03.06",
+    "name": {
+        "nl": "Een linkrole MOET een uniek presentationArc volgnummer hebben, indien er meerdere per entrypoint zijn",
+        "en": "A linkrole MUST have an unique presentationArc order number, if there are multiple per entrypoint"
+    },
+    "explanation": {
+        "nl": "Indien meerdere linkroles, die gebruikt worden voor presentatie relaties, ontdekt worden vanuit een entrypoint, stelt de XBRL specificatie geen volgorder vast tussen deze linkroles. Dit houdt in dat de DTS auteur deze situatie probeert te vermijden door slechts \u00e9\u00e9n presentatie linkrole per entrypoint te ontdekken, of dat de linkroles een volgnummer krijgen zodat software ze op de juiste manier kan sorteren. Dit volgnummer kan alleen met behulp van Generic Link linkbase toegekend worden.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "error_message": {
+        "nl": "Een presentatie-ELR MOET een uniek sbr volgnummer hebben, indien er meerdere per entrypoint schema zijn",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "XML Schema - Linkroles"
+}

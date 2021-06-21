@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.02.02.07",
+    "name": {
+        "nl": "Tuples MOETEN GEEN cycles cre\u00ebren",
+        "en": "Tuples MUST NOT create cycles"
+    },
+    "explanation": {
+        "nl": "Om te voorkomen dat er software problemen ontstaan indien er oneindige herhaling van geneste tuples zijn, zijn deze verboden. (Voorbeeld: Tuple_A heeft als kind Tuple_B heeft als kind Tuple_A)",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "related": "FRTA 2.3.6",
+    "error_message": {
+        "nl": "Tuples MOETEN GEEN cycles cre\u00ebren",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "XML Schema - Concepten"
+}

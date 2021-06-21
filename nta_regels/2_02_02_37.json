@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.02.02.37",
+    "name": {
+        "nl": "xs:schema/xs:element/@xbrli:periodType='duration', UITGEZONDERD niet abstracte items die gerapporteerd worden op de balans OF een nadere verbijzondering zijn van deze balans concepten",
+        "en": null
+    },
+    "explanation": {
+        "nl": "nvt",
+        "en": null
+    },
+    "related": "2.02.02.25",
+    "error_message": {
+        "nl": "nvt",
+        "en": null
+    },
+    "nta_rule": false,
+    "pe_rule": false,
+    "section": "XML Schema - Concepten"
+}
