@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Dutch Taxonomy (Nederlandse Taxonomie; NT)
+  Intellectual Property of the State of the Netherlands
+  Architecture: NT16
+  Version: 20210301
+  Release date Fri Feb 26, 2021
+-->
+<link:linkbase xmlns:gen="http://xbrl.org/2008/generic" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd">
+  <link:roleRef roleURI="http://www.xbrl.org/2008/role/link" xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role" xlink:type="simple"/>
+  <link:arcroleRef arcroleURI="http://www.xbrl.org/2013/arcrole/parent-child" xlink:href="http://www.xbrl.org/lrr/arcrole/parent-child-2013-09-19.xsd#parent-child" xlink:type="simple"/>
+  <gen:link xlink:role="http://www.xbrl.org/2008/role/link" xlink:type="extended">
+    <gen:arc order="1" xlink:arcrole="http://www.xbrl.org/2013/arcrole/parent-child" xlink:from="sbr-abstr_PresentationItemPH2_loc" xlink:to="sbr-lr_Table_loc" xlink:type="arc"/>
+    <gen:arc order="1" xlink:arcrole="http://www.xbrl.org/2013/arcrole/parent-child" xlink:from="sbr-abstr_PresentationItemPHRoot_loc" xlink:to="sbr-abstr_PresentationItemPH_loc" xlink:type="arc"/>
+    <gen:arc order="1" xlink:arcrole="http://www.xbrl.org/2013/arcrole/parent-child" xlink:from="sbr-abstr_PresentationItemPH_loc" xlink:to="sbr-abstr_PresentationItemPH2_loc" xlink:type="arc"/>
+    <link:loc xlink:href="sbr-abstracts.xsd#sbr-abstr_PresentationItemPH2" xlink:label="sbr-abstr_PresentationItemPH2_loc" xlink:type="locator"/>
+    <link:loc xlink:href="sbr-abstracts.xsd#sbr-abstr_PresentationItemPHRoot" xlink:label="sbr-abstr_PresentationItemPHRoot_loc" xlink:type="locator"/>
+    <link:loc xlink:href="sbr-abstracts.xsd#sbr-abstr_PresentationItemPH" xlink:label="sbr-abstr_PresentationItemPH_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/sbr-linkroles.xsd#sbr-lr_Table" xlink:label="sbr-lr_Table_loc" xlink:type="locator"/>
+  </gen:link>
+</link:linkbase>

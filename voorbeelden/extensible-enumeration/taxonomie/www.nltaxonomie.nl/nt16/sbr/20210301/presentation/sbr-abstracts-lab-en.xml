@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Dutch Taxonomy (Nederlandse Taxonomie; NT)
+  Intellectual Property of the State of the Netherlands
+  Architecture: NT16
+  Version: 20210301
+  Release date Fri Feb 26, 2021
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+    <link:label id="sbr-abstr_PresentationItemPH2_label_en" xlink:label="sbr-abstr_PresentationItemPH2_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">PresentationItemPH2</link:label>
+    <link:label id="sbr-abstr_PresentationItemPHRoot_label_en" xlink:label="sbr-abstr_PresentationItemPHRoot_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">PresentationItemPHRoot</link:label>
+    <link:label id="sbr-abstr_PresentationItemPH_label_en" xlink:label="sbr-abstr_PresentationItemPH_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">PresentationItemPH</link:label>
+    <link:label id="sbr-abstr_TableTitle_label_en" xlink:label="sbr-abstr_TableTitle_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Table</link:label>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="sbr-abstr_PresentationItemPH2_loc" xlink:to="sbr-abstr_PresentationItemPH2_label_en" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="sbr-abstr_PresentationItemPHRoot_loc" xlink:to="sbr-abstr_PresentationItemPHRoot_label_en" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="sbr-abstr_PresentationItemPH_loc" xlink:to="sbr-abstr_PresentationItemPH_label_en" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="sbr-abstr_TableTitle_loc" xlink:to="sbr-abstr_TableTitle_label_en" xlink:type="arc"/>
+    <link:loc xlink:href="sbr-abstracts.xsd#sbr-abstr_PresentationItemPH2" xlink:label="sbr-abstr_PresentationItemPH2_loc" xlink:type="locator"/>
+    <link:loc xlink:href="sbr-abstracts.xsd#sbr-abstr_PresentationItemPHRoot" xlink:label="sbr-abstr_PresentationItemPHRoot_loc" xlink:type="locator"/>
+    <link:loc xlink:href="sbr-abstracts.xsd#sbr-abstr_PresentationItemPH" xlink:label="sbr-abstr_PresentationItemPH_loc" xlink:type="locator"/>
+    <link:loc xlink:href="sbr-abstracts.xsd#sbr-abstr_TableTitle" xlink:label="sbr-abstr_TableTitle_loc" xlink:type="locator"/>
+  </link:labelLink>
+</link:linkbase>

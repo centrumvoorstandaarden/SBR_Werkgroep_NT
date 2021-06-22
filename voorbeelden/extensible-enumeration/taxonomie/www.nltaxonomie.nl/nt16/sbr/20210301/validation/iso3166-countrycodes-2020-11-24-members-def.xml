@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Dutch Taxonomy (Nederlandse Taxonomie; NT)
+  Intellectual Property of the State of the Netherlands
+  Architecture: NT16
+  Version: 20210301
+  Release date Fri Feb 26, 2021
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="urn:sbr:linkrole:countries" xlink:href="../dictionary/sbr-linkroles.xsd#sbr-lr_Countries" xlink:type="simple"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
+  <link:definitionLink xlink:role="urn:sbr:linkrole:countries" xlink:type="extended">
+    <link:definitionArc order="1" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_AGO_loc" xlink:type="arc"/>
+    <link:definitionArc order="2" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_ATF_loc" xlink:type="arc"/>
+    <link:definitionArc order="3" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_BDI_loc" xlink:type="arc"/>
+    <link:definitionArc order="4" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_BEN_loc" xlink:type="arc"/>
+    <link:definitionArc order="5" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_BFA_loc" xlink:type="arc"/>
+    <link:definitionArc order="6" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_BWA_loc" xlink:type="arc"/>
+    <link:definitionArc order="7" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_CAF_loc" xlink:type="arc"/>
+    <link:definitionArc order="8" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_CIV_loc" xlink:type="arc"/>
+    <link:definitionArc order="9" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_CMR_loc" xlink:type="arc"/>
+    <link:definitionArc order="10" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_COD_loc" xlink:type="arc"/>
+    <link:definitionArc order="11" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_COG_loc" xlink:type="arc"/>
+    <link:definitionArc order="12" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_COM_loc" xlink:type="arc"/>
+    <link:definitionArc order="13" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_CPV_loc" xlink:type="arc"/>
+    <link:definitionArc order="14" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_DJI_loc" xlink:type="arc"/>
+    <link:definitionArc order="15" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_DZA_loc" xlink:type="arc"/>
+    <link:definitionArc order="16" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_EGY_loc" xlink:type="arc"/>
+    <link:definitionArc order="17" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_ERI_loc" xlink:type="arc"/>
+    <link:definitionArc order="18" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_ESH_loc" xlink:type="arc"/>
+    <link:definitionArc order="19" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_ETH_loc" xlink:type="arc"/>
+    <link:definitionArc order="20" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_GAB_loc" xlink:type="arc"/>
+    <link:definitionArc order="21" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_GHA_loc" xlink:type="arc"/>
+    <link:definitionArc order="22" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_GIN_loc" xlink:type="arc"/>
+    <link:definitionArc order="23" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_GMB_loc" xlink:type="arc"/>
+    <link:definitionArc order="24" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_GNB_loc" xlink:type="arc"/>
+    <link:definitionArc order="25" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_GNQ_loc" xlink:type="arc"/>
+    <link:definitionArc order="26" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_IOT_loc" xlink:type="arc"/>
+    <link:definitionArc order="27" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_KEN_loc" xlink:type="arc"/>
+    <link:definitionArc order="28" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_LBR_loc" xlink:type="arc"/>
+    <link:definitionArc order="29" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_LBY_loc" xlink:type="arc"/>
+    <link:definitionArc order="30" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_LSO_loc" xlink:type="arc"/>
+    <link:definitionArc order="31" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_MAR_loc" xlink:type="arc"/>
+    <link:definitionArc order="32" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_MDG_loc" xlink:type="arc"/>
+    <link:definitionArc order="33" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_MLI_loc" xlink:type="arc"/>
+    <link:definitionArc order="34" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_MOZ_loc" xlink:type="arc"/>
+    <link:definitionArc order="35" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_MRT_loc" xlink:type="arc"/>
+    <link:definitionArc order="36" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_MUS_loc" xlink:type="arc"/>
+    <link:definitionArc order="37" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_MWI_loc" xlink:type="arc"/>
+    <link:definitionArc order="38" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_MYT_loc" xlink:type="arc"/>
+    <link:definitionArc order="39" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_NAM_loc" xlink:type="arc"/>
+    <link:definitionArc order="40" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_NER_loc" xlink:type="arc"/>
+    <link:definitionArc order="41" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_NGA_loc" xlink:type="arc"/>
+    <link:definitionArc order="42" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_REU_loc" xlink:type="arc"/>
+    <link:definitionArc order="43" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_RWA_loc" xlink:type="arc"/>
+    <link:definitionArc order="44" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_SDN_loc" xlink:type="arc"/>
+    <link:definitionArc order="45" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_SEN_loc" xlink:type="arc"/>
+    <link:definitionArc order="46" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_SHN_loc" xlink:type="arc"/>
+    <link:definitionArc order="47" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_SLE_loc" xlink:type="arc"/>
+    <link:definitionArc order="48" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_SOM_loc" xlink:type="arc"/>
+    <link:definitionArc order="49" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_SSD_loc" xlink:type="arc"/>
+    <link:definitionArc order="50" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_STP_loc" xlink:type="arc"/>
+    <link:definitionArc order="51" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_SWZ_loc" xlink:type="arc"/>
+    <link:definitionArc order="52" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_SYC_loc" xlink:type="arc"/>
+    <link:definitionArc order="53" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_TCD_loc" xlink:type="arc"/>
+    <link:definitionArc order="54" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_TGO_loc" xlink:type="arc"/>
+    <link:definitionArc order="55" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_TUN_loc" xlink:type="arc"/>
+    <link:definitionArc order="56" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_TZA_loc" xlink:type="arc"/>
+    <link:definitionArc order="57" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_UGA_loc" xlink:type="arc"/>
+    <link:definitionArc order="58" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_ZAF_loc" xlink:type="arc"/>
+    <link:definitionArc order="59" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_ZMB_loc" xlink:type="arc"/>
+    <link:definitionArc order="60" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-002_loc" xlink:to="iso3166-mem-sbr_ZWE_loc" xlink:type="arc"/>
+    <link:definitionArc order="1" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-005_loc" xlink:to="iso3166-mem-sbr_ARG_loc" xlink:type="arc"/>
+    <link:definitionArc order="2" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-005_loc" xlink:to="iso3166-mem-sbr_BOL_loc" xlink:type="arc"/>
+    <link:definitionArc order="3" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-005_loc" xlink:to="iso3166-mem-sbr_BRA_loc" xlink:type="arc"/>
+    <link:definitionArc order="4" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-005_loc" xlink:to="iso3166-mem-sbr_BVT_loc" xlink:type="arc"/>
+    <link:definitionArc order="5" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-005_loc" xlink:to="iso3166-mem-sbr_CHL_loc" xlink:type="arc"/>
+    <link:definitionArc order="6" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-005_loc" xlink:to="iso3166-mem-sbr_COL_loc" xlink:type="arc"/>
+    <link:definitionArc order="7" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-005_loc" xlink:to="iso3166-mem-sbr_ECU_loc" xlink:type="arc"/>
+    <link:definitionArc order="8" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-005_loc" xlink:to="iso3166-mem-sbr_FLK_loc" xlink:type="arc"/>
+    <link:definitionArc order="9" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-005_loc" xlink:to="iso3166-mem-sbr_GUF_loc" xlink:type="arc"/>
+    <link:definitionArc order="10" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-005_loc" xlink:to="iso3166-mem-sbr_GUY_loc" xlink:type="arc"/>
+    <link:definitionArc order="11" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-005_loc" xlink:to="iso3166-mem-sbr_PER_loc" xlink:type="arc"/>
+    <link:definitionArc order="12" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-005_loc" xlink:to="iso3166-mem-sbr_PRY_loc" xlink:type="arc"/>
+    <link:definitionArc order="13" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-005_loc" xlink:to="iso3166-mem-sbr_SGS_loc" xlink:type="arc"/>
+    <link:definitionArc order="14" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-005_loc" xlink:to="iso3166-mem-sbr_SUR_loc" xlink:type="arc"/>
+    <link:definitionArc order="15" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-005_loc" xlink:to="iso3166-mem-sbr_URY_loc" xlink:type="arc"/>
+    <link:definitionArc order="16" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-005_loc" xlink:to="iso3166-mem-sbr_VEN_loc" xlink:type="arc"/>
+    <link:definitionArc order="1" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-009_loc" xlink:to="iso3166-mem-sbr_ASM_loc" xlink:type="arc"/>
+    <link:definitionArc order="2" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-009_loc" xlink:to="iso3166-mem-sbr_AUS_loc" xlink:type="arc"/>
+    <link:definitionArc order="3" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-009_loc" xlink:to="iso3166-mem-sbr_CCK_loc" xlink:type="arc"/>
+    <link:definitionArc order="4" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-009_loc" xlink:to="iso3166-mem-sbr_COK_loc" xlink:type="arc"/>
+    <link:definitionArc order="5" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-009_loc" xlink:to="iso3166-mem-sbr_CXR_loc" xlink:type="arc"/>
+    <link:definitionArc order="6" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-009_loc" xlink:to="iso3166-mem-sbr_FJI_loc" xlink:type="arc"/>
+    <link:definitionArc order="7" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-009_loc" xlink:to="iso3166-mem-sbr_FSM_loc" xlink:type="arc"/>
+    <link:definitionArc order="8" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-009_loc" xlink:to="iso3166-mem-sbr_GUM_loc" xlink:type="arc"/>
+    <link:definitionArc order="9" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-009_loc" xlink:to="iso3166-mem-sbr_HMD_loc" xlink:type="arc"/>
+    <link:definitionArc order="10" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-009_loc" xlink:to="iso3166-mem-sbr_KIR_loc" xlink:type="arc"/>
+    <link:definitionArc order="11" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-009_loc" xlink:to="iso3166-mem-sbr_MHL_loc" xlink:type="arc"/>
+    <link:definitionArc order="12" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-009_loc" xlink:to="iso3166-mem-sbr_MNP_loc" xlink:type="arc"/>
+    <link:definitionArc order="13" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-009_loc" xlink:to="iso3166-mem-sbr_NCL_loc" xlink:type="arc"/>
+    <link:definitionArc order="14" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-009_loc" xlink:to="iso3166-mem-sbr_NFK_loc" xlink:type="arc"/>
+    <link:definitionArc order="15" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-009_loc" xlink:to="iso3166-mem-sbr_NIU_loc" xlink:type="arc"/>
+    <link:definitionArc order="16" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-009_loc" xlink:to="iso3166-mem-sbr_NRU_loc" xlink:type="arc"/>
+    <link:definitionArc order="17" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-009_loc" xlink:to="iso3166-mem-sbr_NZL_loc" xlink:type="arc"/>
+    <link:definitionArc order="18" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-009_loc" xlink:to="iso3166-mem-sbr_PCN_loc" xlink:type="arc"/>
+    <link:definitionArc order="19" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-009_loc" xlink:to="iso3166-mem-sbr_PLW_loc" xlink:type="arc"/>
+    <link:definitionArc order="20" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-009_loc" xlink:to="iso3166-mem-sbr_PNG_loc" xlink:type="arc"/>
+    <link:definitionArc order="21" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-009_loc" xlink:to="iso3166-mem-sbr_PYF_loc" xlink:type="arc"/>
+    <link:definitionArc order="22" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-009_loc" xlink:to="iso3166-mem-sbr_SLB_loc" xlink:type="arc"/>
+    <link:definitionArc order="23" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-009_loc" xlink:to="iso3166-mem-sbr_TKL_loc" xlink:type="arc"/>
+    <link:definitionArc order="24" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-009_loc" xlink:to="iso3166-mem-sbr_TON_loc" xlink:type="arc"/>
+    <link:definitionArc order="25" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-009_loc" xlink:to="iso3166-mem-sbr_TUV_loc" xlink:type="arc"/>
+    <link:definitionArc order="26" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-009_loc" xlink:to="iso3166-mem-sbr_UMI_loc" xlink:type="arc"/>
+    <link:definitionArc order="27" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-009_loc" xlink:to="iso3166-mem-sbr_VUT_loc" xlink:type="arc"/>
+    <link:definitionArc order="28" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-009_loc" xlink:to="iso3166-mem-sbr_WLF_loc" xlink:type="arc"/>
+    <link:definitionArc order="29" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-009_loc" xlink:to="iso3166-mem-sbr_WSM_loc" xlink:type="arc"/>
+    <link:definitionArc order="1" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-010_loc" xlink:to="iso3166-mem-sbr_ATA_loc" xlink:type="arc"/>
+    <link:definitionArc order="1" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_ABW_loc" xlink:type="arc"/>
+    <link:definitionArc order="2" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_AIA_loc" xlink:type="arc"/>
+    <link:definitionArc order="3" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_ATG_loc" xlink:type="arc"/>
+    <link:definitionArc order="4" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_BES_loc" xlink:type="arc"/>
+    <link:definitionArc order="5" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_BHS_loc" xlink:type="arc"/>
+    <link:definitionArc order="6" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_BLM_loc" xlink:type="arc"/>
+    <link:definitionArc order="7" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_BLZ_loc" xlink:type="arc"/>
+    <link:definitionArc order="8" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_BMU_loc" xlink:type="arc"/>
+    <link:definitionArc order="9" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_BRB_loc" xlink:type="arc"/>
+    <link:definitionArc order="10" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_CAN_loc" xlink:type="arc"/>
+    <link:definitionArc order="11" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_CRI_loc" xlink:type="arc"/>
+    <link:definitionArc order="12" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_CUB_loc" xlink:type="arc"/>
+    <link:definitionArc order="13" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_CUW_loc" xlink:type="arc"/>
+    <link:definitionArc order="14" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_CYM_loc" xlink:type="arc"/>
+    <link:definitionArc order="15" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_DMA_loc" xlink:type="arc"/>
+    <link:definitionArc order="16" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_DOM_loc" xlink:type="arc"/>
+    <link:definitionArc order="17" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_GLP_loc" xlink:type="arc"/>
+    <link:definitionArc order="18" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_GRD_loc" xlink:type="arc"/>
+    <link:definitionArc order="19" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_GRL_loc" xlink:type="arc"/>
+    <link:definitionArc order="20" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_GTM_loc" xlink:type="arc"/>
+    <link:definitionArc order="21" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_HND_loc" xlink:type="arc"/>
+    <link:definitionArc order="22" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_HTI_loc" xlink:type="arc"/>
+    <link:definitionArc order="23" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_JAM_loc" xlink:type="arc"/>
+    <link:definitionArc order="24" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_KNA_loc" xlink:type="arc"/>
+    <link:definitionArc order="25" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_LCA_loc" xlink:type="arc"/>
+    <link:definitionArc order="26" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_MAF_loc" xlink:type="arc"/>
+    <link:definitionArc order="27" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_MEX_loc" xlink:type="arc"/>
+    <link:definitionArc order="28" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_MSR_loc" xlink:type="arc"/>
+    <link:definitionArc order="29" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_MTQ_loc" xlink:type="arc"/>
+    <link:definitionArc order="30" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_NIC_loc" xlink:type="arc"/>
+    <link:definitionArc order="31" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_PAN_loc" xlink:type="arc"/>
+    <link:definitionArc order="32" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_PRI_loc" xlink:type="arc"/>
+    <link:definitionArc order="33" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_SLV_loc" xlink:type="arc"/>
+    <link:definitionArc order="34" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_SPM_loc" xlink:type="arc"/>
+    <link:definitionArc order="35" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_SXM_loc" xlink:type="arc"/>
+    <link:definitionArc order="36" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_TCA_loc" xlink:type="arc"/>
+    <link:definitionArc order="37" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_TTO_loc" xlink:type="arc"/>
+    <link:definitionArc order="38" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_USA_loc" xlink:type="arc"/>
+    <link:definitionArc order="39" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_VCT_loc" xlink:type="arc"/>
+    <link:definitionArc order="40" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_VGB_loc" xlink:type="arc"/>
+    <link:definitionArc order="41" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-019_loc" xlink:to="iso3166-mem-sbr_VIR_loc" xlink:type="arc"/>
+    <link:definitionArc order="1" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_AFG_loc" xlink:type="arc"/>
+    <link:definitionArc order="2" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_ARE_loc" xlink:type="arc"/>
+    <link:definitionArc order="3" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_ARM_loc" xlink:type="arc"/>
+    <link:definitionArc order="4" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_AZE_loc" xlink:type="arc"/>
+    <link:definitionArc order="5" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_BGD_loc" xlink:type="arc"/>
+    <link:definitionArc order="6" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_BHR_loc" xlink:type="arc"/>
+    <link:definitionArc order="7" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_BRN_loc" xlink:type="arc"/>
+    <link:definitionArc order="8" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_BTN_loc" xlink:type="arc"/>
+    <link:definitionArc order="9" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_CHN_loc" xlink:type="arc"/>
+    <link:definitionArc order="10" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_CYP_loc" xlink:type="arc"/>
+    <link:definitionArc order="11" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_GEO_loc" xlink:type="arc"/>
+    <link:definitionArc order="12" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_HKG_loc" xlink:type="arc"/>
+    <link:definitionArc order="13" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_IDN_loc" xlink:type="arc"/>
+    <link:definitionArc order="14" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_IND_loc" xlink:type="arc"/>
+    <link:definitionArc order="15" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_IRN_loc" xlink:type="arc"/>
+    <link:definitionArc order="16" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_IRQ_loc" xlink:type="arc"/>
+    <link:definitionArc order="17" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_ISR_loc" xlink:type="arc"/>
+    <link:definitionArc order="18" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_JOR_loc" xlink:type="arc"/>
+    <link:definitionArc order="19" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_JPN_loc" xlink:type="arc"/>
+    <link:definitionArc order="20" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_KAZ_loc" xlink:type="arc"/>
+    <link:definitionArc order="21" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_KGZ_loc" xlink:type="arc"/>
+    <link:definitionArc order="22" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_KHM_loc" xlink:type="arc"/>
+    <link:definitionArc order="23" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_KOR_loc" xlink:type="arc"/>
+    <link:definitionArc order="24" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_KWT_loc" xlink:type="arc"/>
+    <link:definitionArc order="25" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_LAO_loc" xlink:type="arc"/>
+    <link:definitionArc order="26" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_LBN_loc" xlink:type="arc"/>
+    <link:definitionArc order="27" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_LKA_loc" xlink:type="arc"/>
+    <link:definitionArc order="28" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_MAC_loc" xlink:type="arc"/>
+    <link:definitionArc order="29" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_MDV_loc" xlink:type="arc"/>
+    <link:definitionArc order="30" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_MMR_loc" xlink:type="arc"/>
+    <link:definitionArc order="31" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_MNG_loc" xlink:type="arc"/>
+    <link:definitionArc order="32" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_MYS_loc" xlink:type="arc"/>
+    <link:definitionArc order="33" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_NPL_loc" xlink:type="arc"/>
+    <link:definitionArc order="34" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_OMN_loc" xlink:type="arc"/>
+    <link:definitionArc order="35" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_PAK_loc" xlink:type="arc"/>
+    <link:definitionArc order="36" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_PHL_loc" xlink:type="arc"/>
+    <link:definitionArc order="37" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_PRK_loc" xlink:type="arc"/>
+    <link:definitionArc order="38" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_PSE_loc" xlink:type="arc"/>
+    <link:definitionArc order="39" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_QAT_loc" xlink:type="arc"/>
+    <link:definitionArc order="40" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_SAU_loc" xlink:type="arc"/>
+    <link:definitionArc order="41" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_SGP_loc" xlink:type="arc"/>
+    <link:definitionArc order="42" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_SYR_loc" xlink:type="arc"/>
+    <link:definitionArc order="43" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_THA_loc" xlink:type="arc"/>
+    <link:definitionArc order="44" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_TJK_loc" xlink:type="arc"/>
+    <link:definitionArc order="45" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_TKM_loc" xlink:type="arc"/>
+    <link:definitionArc order="46" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_TLS_loc" xlink:type="arc"/>
+    <link:definitionArc order="47" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_TUR_loc" xlink:type="arc"/>
+    <link:definitionArc order="48" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_UZB_loc" xlink:type="arc"/>
+    <link:definitionArc order="49" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_VNM_loc" xlink:type="arc"/>
+    <link:definitionArc order="50" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-142_loc" xlink:to="iso3166-mem-sbr_YEM_loc" xlink:type="arc"/>
+    <link:definitionArc order="1" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_ALA_loc" xlink:type="arc"/>
+    <link:definitionArc order="2" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_ALB_loc" xlink:type="arc"/>
+    <link:definitionArc order="3" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_AND_loc" xlink:type="arc"/>
+    <link:definitionArc order="4" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_AUT_loc" xlink:type="arc"/>
+    <link:definitionArc order="5" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_BEL_loc" xlink:type="arc"/>
+    <link:definitionArc order="6" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_BGR_loc" xlink:type="arc"/>
+    <link:definitionArc order="7" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_BIH_loc" xlink:type="arc"/>
+    <link:definitionArc order="8" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_BLR_loc" xlink:type="arc"/>
+    <link:definitionArc order="9" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_CHE_loc" xlink:type="arc"/>
+    <link:definitionArc order="10" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_CZE_loc" xlink:type="arc"/>
+    <link:definitionArc order="11" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_DEU_loc" xlink:type="arc"/>
+    <link:definitionArc order="12" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_DNK_loc" xlink:type="arc"/>
+    <link:definitionArc order="13" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_ESP_loc" xlink:type="arc"/>
+    <link:definitionArc order="14" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_EST_loc" xlink:type="arc"/>
+    <link:definitionArc order="15" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_FIN_loc" xlink:type="arc"/>
+    <link:definitionArc order="16" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_FRA_loc" xlink:type="arc"/>
+    <link:definitionArc order="17" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_FRO_loc" xlink:type="arc"/>
+    <link:definitionArc order="18" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_GBR_loc" xlink:type="arc"/>
+    <link:definitionArc order="19" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_GGY_loc" xlink:type="arc"/>
+    <link:definitionArc order="20" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_GIB_loc" xlink:type="arc"/>
+    <link:definitionArc order="21" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_GRC_loc" xlink:type="arc"/>
+    <link:definitionArc order="22" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_HRV_loc" xlink:type="arc"/>
+    <link:definitionArc order="23" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_HUN_loc" xlink:type="arc"/>
+    <link:definitionArc order="24" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_IMN_loc" xlink:type="arc"/>
+    <link:definitionArc order="25" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_IRL_loc" xlink:type="arc"/>
+    <link:definitionArc order="26" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_ISL_loc" xlink:type="arc"/>
+    <link:definitionArc order="27" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_ITA_loc" xlink:type="arc"/>
+    <link:definitionArc order="28" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_JEY_loc" xlink:type="arc"/>
+    <link:definitionArc order="29" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_LIE_loc" xlink:type="arc"/>
+    <link:definitionArc order="30" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_LTU_loc" xlink:type="arc"/>
+    <link:definitionArc order="31" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_LUX_loc" xlink:type="arc"/>
+    <link:definitionArc order="32" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_LVA_loc" xlink:type="arc"/>
+    <link:definitionArc order="33" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_MCO_loc" xlink:type="arc"/>
+    <link:definitionArc order="34" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_MDA_loc" xlink:type="arc"/>
+    <link:definitionArc order="35" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_MKD_loc" xlink:type="arc"/>
+    <link:definitionArc order="36" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_MLT_loc" xlink:type="arc"/>
+    <link:definitionArc order="37" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_MNE_loc" xlink:type="arc"/>
+    <link:definitionArc order="38" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_NLD_loc" xlink:type="arc"/>
+    <link:definitionArc order="39" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_NOR_loc" xlink:type="arc"/>
+    <link:definitionArc order="40" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_POL_loc" xlink:type="arc"/>
+    <link:definitionArc order="41" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_PRT_loc" xlink:type="arc"/>
+    <link:definitionArc order="42" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_ROU_loc" xlink:type="arc"/>
+    <link:definitionArc order="43" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_RUS_loc" xlink:type="arc"/>
+    <link:definitionArc order="44" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_SJM_loc" xlink:type="arc"/>
+    <link:definitionArc order="45" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_SMR_loc" xlink:type="arc"/>
+    <link:definitionArc order="46" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_SRB_loc" xlink:type="arc"/>
+    <link:definitionArc order="47" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_SVK_loc" xlink:type="arc"/>
+    <link:definitionArc order="48" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_SVN_loc" xlink:type="arc"/>
+    <link:definitionArc order="49" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_SWE_loc" xlink:type="arc"/>
+    <link:definitionArc order="50" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_UKR_loc" xlink:type="arc"/>
+    <link:definitionArc order="51" xbrldt:usable="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49-150_loc" xlink:to="iso3166-mem-sbr_VAT_loc" xlink:type="arc"/>
+    <link:definitionArc order="1" xbrldt:usable="false" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49_001_loc" xlink:to="sbr-dm_M49-002_loc" xlink:type="arc"/>
+    <link:definitionArc order="2" xbrldt:usable="false" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49_001_loc" xlink:to="sbr-dm_M49-010_loc" xlink:type="arc"/>
+    <link:definitionArc order="3" xbrldt:usable="false" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49_001_loc" xlink:to="sbr-dm_M49-142_loc" xlink:type="arc"/>
+    <link:definitionArc order="4" xbrldt:usable="false" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49_001_loc" xlink:to="sbr-dm_M49-150_loc" xlink:type="arc"/>
+    <link:definitionArc order="5" xbrldt:usable="false" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49_001_loc" xlink:to="sbr-dm_M49-019_loc" xlink:type="arc"/>
+    <link:definitionArc order="6" xbrldt:usable="false" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49_001_loc" xlink:to="sbr-dm_M49-009_loc" xlink:type="arc"/>
+    <link:definitionArc order="7" xbrldt:usable="false" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dm_M49_001_loc" xlink:to="sbr-dm_M49-005_loc" xlink:type="arc"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_ABW" xlink:label="iso3166-mem-sbr_ABW_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_AFG" xlink:label="iso3166-mem-sbr_AFG_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_AGO" xlink:label="iso3166-mem-sbr_AGO_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_AIA" xlink:label="iso3166-mem-sbr_AIA_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_ALA" xlink:label="iso3166-mem-sbr_ALA_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_ALB" xlink:label="iso3166-mem-sbr_ALB_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_AND" xlink:label="iso3166-mem-sbr_AND_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_ARE" xlink:label="iso3166-mem-sbr_ARE_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_ARG" xlink:label="iso3166-mem-sbr_ARG_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_ARM" xlink:label="iso3166-mem-sbr_ARM_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_ASM" xlink:label="iso3166-mem-sbr_ASM_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_ATA" xlink:label="iso3166-mem-sbr_ATA_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_ATF" xlink:label="iso3166-mem-sbr_ATF_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_ATG" xlink:label="iso3166-mem-sbr_ATG_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_AUS" xlink:label="iso3166-mem-sbr_AUS_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_AUT" xlink:label="iso3166-mem-sbr_AUT_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_AZE" xlink:label="iso3166-mem-sbr_AZE_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_BDI" xlink:label="iso3166-mem-sbr_BDI_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_BEL" xlink:label="iso3166-mem-sbr_BEL_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_BEN" xlink:label="iso3166-mem-sbr_BEN_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_BES" xlink:label="iso3166-mem-sbr_BES_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_BFA" xlink:label="iso3166-mem-sbr_BFA_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_BGD" xlink:label="iso3166-mem-sbr_BGD_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_BGR" xlink:label="iso3166-mem-sbr_BGR_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_BHR" xlink:label="iso3166-mem-sbr_BHR_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_BHS" xlink:label="iso3166-mem-sbr_BHS_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_BIH" xlink:label="iso3166-mem-sbr_BIH_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_BLM" xlink:label="iso3166-mem-sbr_BLM_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_BLR" xlink:label="iso3166-mem-sbr_BLR_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_BLZ" xlink:label="iso3166-mem-sbr_BLZ_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_BMU" xlink:label="iso3166-mem-sbr_BMU_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_BOL" xlink:label="iso3166-mem-sbr_BOL_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_BRA" xlink:label="iso3166-mem-sbr_BRA_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_BRB" xlink:label="iso3166-mem-sbr_BRB_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_BRN" xlink:label="iso3166-mem-sbr_BRN_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_BTN" xlink:label="iso3166-mem-sbr_BTN_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_BVT" xlink:label="iso3166-mem-sbr_BVT_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_BWA" xlink:label="iso3166-mem-sbr_BWA_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_CAF" xlink:label="iso3166-mem-sbr_CAF_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_CAN" xlink:label="iso3166-mem-sbr_CAN_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_CCK" xlink:label="iso3166-mem-sbr_CCK_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_CHE" xlink:label="iso3166-mem-sbr_CHE_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_CHL" xlink:label="iso3166-mem-sbr_CHL_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_CHN" xlink:label="iso3166-mem-sbr_CHN_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_CIV" xlink:label="iso3166-mem-sbr_CIV_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_CMR" xlink:label="iso3166-mem-sbr_CMR_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_COD" xlink:label="iso3166-mem-sbr_COD_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_COG" xlink:label="iso3166-mem-sbr_COG_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_COK" xlink:label="iso3166-mem-sbr_COK_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_COL" xlink:label="iso3166-mem-sbr_COL_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_COM" xlink:label="iso3166-mem-sbr_COM_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_CPV" xlink:label="iso3166-mem-sbr_CPV_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_CRI" xlink:label="iso3166-mem-sbr_CRI_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_CUB" xlink:label="iso3166-mem-sbr_CUB_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_CUW" xlink:label="iso3166-mem-sbr_CUW_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_CXR" xlink:label="iso3166-mem-sbr_CXR_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_CYM" xlink:label="iso3166-mem-sbr_CYM_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_CYP" xlink:label="iso3166-mem-sbr_CYP_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_CZE" xlink:label="iso3166-mem-sbr_CZE_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_DEU" xlink:label="iso3166-mem-sbr_DEU_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_DJI" xlink:label="iso3166-mem-sbr_DJI_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_DMA" xlink:label="iso3166-mem-sbr_DMA_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_DNK" xlink:label="iso3166-mem-sbr_DNK_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_DOM" xlink:label="iso3166-mem-sbr_DOM_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_DZA" xlink:label="iso3166-mem-sbr_DZA_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_ECU" xlink:label="iso3166-mem-sbr_ECU_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_EGY" xlink:label="iso3166-mem-sbr_EGY_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_ERI" xlink:label="iso3166-mem-sbr_ERI_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_ESH" xlink:label="iso3166-mem-sbr_ESH_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_ESP" xlink:label="iso3166-mem-sbr_ESP_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_EST" xlink:label="iso3166-mem-sbr_EST_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_ETH" xlink:label="iso3166-mem-sbr_ETH_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_FIN" xlink:label="iso3166-mem-sbr_FIN_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_FJI" xlink:label="iso3166-mem-sbr_FJI_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_FLK" xlink:label="iso3166-mem-sbr_FLK_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_FRA" xlink:label="iso3166-mem-sbr_FRA_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_FRO" xlink:label="iso3166-mem-sbr_FRO_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_FSM" xlink:label="iso3166-mem-sbr_FSM_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_GAB" xlink:label="iso3166-mem-sbr_GAB_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_GBR" xlink:label="iso3166-mem-sbr_GBR_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_GEO" xlink:label="iso3166-mem-sbr_GEO_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_GGY" xlink:label="iso3166-mem-sbr_GGY_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_GHA" xlink:label="iso3166-mem-sbr_GHA_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_GIB" xlink:label="iso3166-mem-sbr_GIB_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_GIN" xlink:label="iso3166-mem-sbr_GIN_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_GLP" xlink:label="iso3166-mem-sbr_GLP_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_GMB" xlink:label="iso3166-mem-sbr_GMB_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_GNB" xlink:label="iso3166-mem-sbr_GNB_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_GNQ" xlink:label="iso3166-mem-sbr_GNQ_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_GRC" xlink:label="iso3166-mem-sbr_GRC_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_GRD" xlink:label="iso3166-mem-sbr_GRD_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_GRL" xlink:label="iso3166-mem-sbr_GRL_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_GTM" xlink:label="iso3166-mem-sbr_GTM_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_GUF" xlink:label="iso3166-mem-sbr_GUF_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_GUM" xlink:label="iso3166-mem-sbr_GUM_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_GUY" xlink:label="iso3166-mem-sbr_GUY_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_HKG" xlink:label="iso3166-mem-sbr_HKG_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_HMD" xlink:label="iso3166-mem-sbr_HMD_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_HND" xlink:label="iso3166-mem-sbr_HND_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_HRV" xlink:label="iso3166-mem-sbr_HRV_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_HTI" xlink:label="iso3166-mem-sbr_HTI_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_HUN" xlink:label="iso3166-mem-sbr_HUN_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_IDN" xlink:label="iso3166-mem-sbr_IDN_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_IMN" xlink:label="iso3166-mem-sbr_IMN_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_IND" xlink:label="iso3166-mem-sbr_IND_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_IOT" xlink:label="iso3166-mem-sbr_IOT_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_IRL" xlink:label="iso3166-mem-sbr_IRL_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_IRN" xlink:label="iso3166-mem-sbr_IRN_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_IRQ" xlink:label="iso3166-mem-sbr_IRQ_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_ISL" xlink:label="iso3166-mem-sbr_ISL_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_ISR" xlink:label="iso3166-mem-sbr_ISR_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_ITA" xlink:label="iso3166-mem-sbr_ITA_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_JAM" xlink:label="iso3166-mem-sbr_JAM_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_JEY" xlink:label="iso3166-mem-sbr_JEY_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_JOR" xlink:label="iso3166-mem-sbr_JOR_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_JPN" xlink:label="iso3166-mem-sbr_JPN_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_KAZ" xlink:label="iso3166-mem-sbr_KAZ_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_KEN" xlink:label="iso3166-mem-sbr_KEN_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_KGZ" xlink:label="iso3166-mem-sbr_KGZ_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_KHM" xlink:label="iso3166-mem-sbr_KHM_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_KIR" xlink:label="iso3166-mem-sbr_KIR_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_KNA" xlink:label="iso3166-mem-sbr_KNA_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_KOR" xlink:label="iso3166-mem-sbr_KOR_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_KWT" xlink:label="iso3166-mem-sbr_KWT_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_LAO" xlink:label="iso3166-mem-sbr_LAO_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_LBN" xlink:label="iso3166-mem-sbr_LBN_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_LBR" xlink:label="iso3166-mem-sbr_LBR_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_LBY" xlink:label="iso3166-mem-sbr_LBY_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_LCA" xlink:label="iso3166-mem-sbr_LCA_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_LIE" xlink:label="iso3166-mem-sbr_LIE_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_LKA" xlink:label="iso3166-mem-sbr_LKA_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_LSO" xlink:label="iso3166-mem-sbr_LSO_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_LTU" xlink:label="iso3166-mem-sbr_LTU_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_LUX" xlink:label="iso3166-mem-sbr_LUX_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_LVA" xlink:label="iso3166-mem-sbr_LVA_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_MAC" xlink:label="iso3166-mem-sbr_MAC_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_MAF" xlink:label="iso3166-mem-sbr_MAF_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_MAR" xlink:label="iso3166-mem-sbr_MAR_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_MCO" xlink:label="iso3166-mem-sbr_MCO_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_MDA" xlink:label="iso3166-mem-sbr_MDA_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_MDG" xlink:label="iso3166-mem-sbr_MDG_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_MDV" xlink:label="iso3166-mem-sbr_MDV_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_MEX" xlink:label="iso3166-mem-sbr_MEX_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_MHL" xlink:label="iso3166-mem-sbr_MHL_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_MKD" xlink:label="iso3166-mem-sbr_MKD_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_MLI" xlink:label="iso3166-mem-sbr_MLI_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_MLT" xlink:label="iso3166-mem-sbr_MLT_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_MMR" xlink:label="iso3166-mem-sbr_MMR_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_MNE" xlink:label="iso3166-mem-sbr_MNE_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_MNG" xlink:label="iso3166-mem-sbr_MNG_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_MNP" xlink:label="iso3166-mem-sbr_MNP_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_MOZ" xlink:label="iso3166-mem-sbr_MOZ_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_MRT" xlink:label="iso3166-mem-sbr_MRT_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_MSR" xlink:label="iso3166-mem-sbr_MSR_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_MTQ" xlink:label="iso3166-mem-sbr_MTQ_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_MUS" xlink:label="iso3166-mem-sbr_MUS_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_MWI" xlink:label="iso3166-mem-sbr_MWI_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_MYS" xlink:label="iso3166-mem-sbr_MYS_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_MYT" xlink:label="iso3166-mem-sbr_MYT_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_NAM" xlink:label="iso3166-mem-sbr_NAM_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_NCL" xlink:label="iso3166-mem-sbr_NCL_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_NER" xlink:label="iso3166-mem-sbr_NER_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_NFK" xlink:label="iso3166-mem-sbr_NFK_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_NGA" xlink:label="iso3166-mem-sbr_NGA_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_NIC" xlink:label="iso3166-mem-sbr_NIC_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_NIU" xlink:label="iso3166-mem-sbr_NIU_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_NLD" xlink:label="iso3166-mem-sbr_NLD_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_NOR" xlink:label="iso3166-mem-sbr_NOR_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_NPL" xlink:label="iso3166-mem-sbr_NPL_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_NRU" xlink:label="iso3166-mem-sbr_NRU_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_NZL" xlink:label="iso3166-mem-sbr_NZL_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_OMN" xlink:label="iso3166-mem-sbr_OMN_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_PAK" xlink:label="iso3166-mem-sbr_PAK_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_PAN" xlink:label="iso3166-mem-sbr_PAN_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_PCN" xlink:label="iso3166-mem-sbr_PCN_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_PER" xlink:label="iso3166-mem-sbr_PER_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_PHL" xlink:label="iso3166-mem-sbr_PHL_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_PLW" xlink:label="iso3166-mem-sbr_PLW_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_PNG" xlink:label="iso3166-mem-sbr_PNG_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_POL" xlink:label="iso3166-mem-sbr_POL_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_PRI" xlink:label="iso3166-mem-sbr_PRI_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_PRK" xlink:label="iso3166-mem-sbr_PRK_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_PRT" xlink:label="iso3166-mem-sbr_PRT_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_PRY" xlink:label="iso3166-mem-sbr_PRY_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_PSE" xlink:label="iso3166-mem-sbr_PSE_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_PYF" xlink:label="iso3166-mem-sbr_PYF_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_QAT" xlink:label="iso3166-mem-sbr_QAT_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_REU" xlink:label="iso3166-mem-sbr_REU_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_ROU" xlink:label="iso3166-mem-sbr_ROU_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_RUS" xlink:label="iso3166-mem-sbr_RUS_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_RWA" xlink:label="iso3166-mem-sbr_RWA_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_SAU" xlink:label="iso3166-mem-sbr_SAU_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_SDN" xlink:label="iso3166-mem-sbr_SDN_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_SEN" xlink:label="iso3166-mem-sbr_SEN_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_SGP" xlink:label="iso3166-mem-sbr_SGP_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_SGS" xlink:label="iso3166-mem-sbr_SGS_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_SHN" xlink:label="iso3166-mem-sbr_SHN_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_SJM" xlink:label="iso3166-mem-sbr_SJM_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_SLB" xlink:label="iso3166-mem-sbr_SLB_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_SLE" xlink:label="iso3166-mem-sbr_SLE_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_SLV" xlink:label="iso3166-mem-sbr_SLV_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_SMR" xlink:label="iso3166-mem-sbr_SMR_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_SOM" xlink:label="iso3166-mem-sbr_SOM_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_SPM" xlink:label="iso3166-mem-sbr_SPM_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_SRB" xlink:label="iso3166-mem-sbr_SRB_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_SSD" xlink:label="iso3166-mem-sbr_SSD_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_STP" xlink:label="iso3166-mem-sbr_STP_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_SUR" xlink:label="iso3166-mem-sbr_SUR_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_SVK" xlink:label="iso3166-mem-sbr_SVK_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_SVN" xlink:label="iso3166-mem-sbr_SVN_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_SWE" xlink:label="iso3166-mem-sbr_SWE_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_SWZ" xlink:label="iso3166-mem-sbr_SWZ_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_SXM" xlink:label="iso3166-mem-sbr_SXM_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_SYC" xlink:label="iso3166-mem-sbr_SYC_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_SYR" xlink:label="iso3166-mem-sbr_SYR_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_TCA" xlink:label="iso3166-mem-sbr_TCA_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_TCD" xlink:label="iso3166-mem-sbr_TCD_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_TGO" xlink:label="iso3166-mem-sbr_TGO_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_THA" xlink:label="iso3166-mem-sbr_THA_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_TJK" xlink:label="iso3166-mem-sbr_TJK_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_TKL" xlink:label="iso3166-mem-sbr_TKL_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_TKM" xlink:label="iso3166-mem-sbr_TKM_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_TLS" xlink:label="iso3166-mem-sbr_TLS_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_TON" xlink:label="iso3166-mem-sbr_TON_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_TTO" xlink:label="iso3166-mem-sbr_TTO_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_TUN" xlink:label="iso3166-mem-sbr_TUN_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_TUR" xlink:label="iso3166-mem-sbr_TUR_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_TUV" xlink:label="iso3166-mem-sbr_TUV_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_TZA" xlink:label="iso3166-mem-sbr_TZA_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_UGA" xlink:label="iso3166-mem-sbr_UGA_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_UKR" xlink:label="iso3166-mem-sbr_UKR_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_UMI" xlink:label="iso3166-mem-sbr_UMI_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_URY" xlink:label="iso3166-mem-sbr_URY_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_USA" xlink:label="iso3166-mem-sbr_USA_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_UZB" xlink:label="iso3166-mem-sbr_UZB_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_VAT" xlink:label="iso3166-mem-sbr_VAT_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_VCT" xlink:label="iso3166-mem-sbr_VCT_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_VEN" xlink:label="iso3166-mem-sbr_VEN_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_VGB" xlink:label="iso3166-mem-sbr_VGB_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_VIR" xlink:label="iso3166-mem-sbr_VIR_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_VNM" xlink:label="iso3166-mem-sbr_VNM_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_VUT" xlink:label="iso3166-mem-sbr_VUT_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_WLF" xlink:label="iso3166-mem-sbr_WLF_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_WSM" xlink:label="iso3166-mem-sbr_WSM_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_YEM" xlink:label="iso3166-mem-sbr_YEM_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_ZAF" xlink:label="iso3166-mem-sbr_ZAF_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_ZMB" xlink:label="iso3166-mem-sbr_ZMB_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/iso3166-domains-countrycodes-2020-11-24.xsd#iso3166-mem-sbr_ZWE" xlink:label="iso3166-mem-sbr_ZWE_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/sbr-domains.xsd#sbr-dm_M49-002" xlink:label="sbr-dm_M49-002_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/sbr-domains.xsd#sbr-dm_M49-005" xlink:label="sbr-dm_M49-005_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/sbr-domains.xsd#sbr-dm_M49-009" xlink:label="sbr-dm_M49-009_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/sbr-domains.xsd#sbr-dm_M49-010" xlink:label="sbr-dm_M49-010_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/sbr-domains.xsd#sbr-dm_M49-019" xlink:label="sbr-dm_M49-019_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/sbr-domains.xsd#sbr-dm_M49-142" xlink:label="sbr-dm_M49-142_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/sbr-domains.xsd#sbr-dm_M49-150" xlink:label="sbr-dm_M49-150_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/sbr-domains.xsd#sbr-dm_M49_001" xlink:label="sbr-dm_M49_001_loc" xlink:type="locator"/>
+  </link:definitionLink>
+</link:linkbase>

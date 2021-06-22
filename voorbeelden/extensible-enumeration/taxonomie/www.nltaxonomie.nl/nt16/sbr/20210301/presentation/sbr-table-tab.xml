@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Dutch Taxonomy (Nederlandse Taxonomie; NT)
+  Intellectual Property of the State of the Netherlands
+  Architecture: NT16
+  Version: 20210301
+  Release date Fri Feb 26, 2021
+-->
+<link:linkbase xmlns:formula="http://xbrl.org/2008/formula" xmlns:gen="http://xbrl.org/2008/generic" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:sbr-abstr="http://www.nltaxonomie.nl/nt16/sbr/20210301/presentation/sbr-abstracts" xmlns:table="http://xbrl.org/2014/table" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.nltaxonomie.nl/nt16/sbr/20210301/presentation/sbr-abstracts sbr-abstracts.xsd http://xbrl.org/2008/formula http://www.xbrl.org/2008/formula.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd http://xbrl.org/2014/table http://www.xbrl.org/2014/table.xsd">
+  <link:roleRef roleURI="urn:sbr:linkrole:table" xlink:href="../dictionary/sbr-linkroles.xsd#sbr-lr_Table" xlink:type="simple"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2014/breakdown-tree" xlink:href="http://www.xbrl.org/2014/table.xsd#breakdown-tree" xlink:type="simple"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2014/definition-node-subtree" xlink:href="http://www.xbrl.org/2014/table.xsd#definition-node-subtree" xlink:type="simple"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2014/table-breakdown" xlink:href="http://www.xbrl.org/2014/table.xsd#table-breakdown" xlink:type="simple"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2014/table-parameter" xlink:href="http://www.xbrl.org/2014/table.xsd#table-parameter" xlink:type="simple"/>
+  <gen:link xlink:role="urn:sbr:linkrole:table" xlink:type="extended">
+    <link:loc xlink:href="sbr-generic-parameter.xml#FinancialReportingPeriodCurrentEndDateParam" xlink:label="FinancialReportingPeriodCurrentEndDateParam_loc" xlink:type="locator"/>
+    <table:breakdown id="sbr-table_1PeriodeDurationDisclosure_TableTable-x" parentChildOrder="parent-first" xlink:label="sbr-table_1PeriodeDurationDisclosure_TableTable-x" xlink:type="resource"/>
+    <table:breakdown id="sbr-table_1PeriodeDurationDisclosure_TableTable-y" parentChildOrder="parent-first" xlink:label="sbr-table_1PeriodeDurationDisclosure_TableTable-y" xlink:type="resource"/>
+    <table:breakdownTreeArc order="1" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree" xlink:from="sbr-table_1PeriodeDurationDisclosure_TableTable-x" xlink:to="sbr-table_1PeriodeDurationDisclosure_TableTable-x.1" xlink:type="arc"/>
+    <table:breakdownTreeArc order="1" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree" xlink:from="sbr-table_1PeriodeDurationDisclosure_TableTable-y" xlink:to="sbr-table_1PeriodeDurationDisclosure_TableTable-y.1" xlink:type="arc"/>
+    <table:conceptRelationshipNode id="sbr-table_1PeriodeDurationDisclosure_TableTable-y.1" parentChildOrder="children-first" xlink:label="sbr-table_1PeriodeDurationDisclosure_TableTable-y.1" xlink:type="resource">
+      <table:relationshipSource>sbr-abstr:TableTitle</table:relationshipSource>
+      <table:linkrole>urn:sbr:linkrole:table</table:linkrole>
+      <table:arcrole>http://www.xbrl.org/2003/arcrole/parent-child</table:arcrole>
+      <table:formulaAxis>descendant</table:formulaAxis>
+    </table:conceptRelationshipNode>
+    <table:definitionNodeSubtreeArc order="1" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree" xlink:from="sbr-table_1PeriodeDurationDisclosure_TableTable-x.1" xlink:to="sbr-table_1PeriodeDurationDisclosure_TableTable-x.1.1" xlink:type="arc"/>
+    <table:ruleNode abstract="false" id="sbr-table_1PeriodeDurationDisclosure_TableTable-x.1.1" merge="false" parentChildOrder="parent-first" xlink:label="sbr-table_1PeriodeDurationDisclosure_TableTable-x.1.1" xlink:type="resource"/>
+    <table:ruleNode abstract="true" id="sbr-table_1PeriodeDurationDisclosure_TableTable-x.1" merge="true" parentChildOrder="parent-first" xlink:label="sbr-table_1PeriodeDurationDisclosure_TableTable-x.1" xlink:type="resource">
+      <formula:period>
+        <formula:instant value="$FinancialReportingPeriodCurrentEndDateParam"/>
+      </formula:period>
+    </table:ruleNode>
+    <table:table id="sbr-table_1PeriodeDurationDisclosure_TableTable" parentChildOrder="parent-first" xlink:label="sbr-table_1PeriodeDurationDisclosure_TableTable" xlink:type="resource"/>
+    <table:tableBreakdownArc axis="x" order="1" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown" xlink:from="sbr-table_1PeriodeDurationDisclosure_TableTable" xlink:to="sbr-table_1PeriodeDurationDisclosure_TableTable-x" xlink:type="arc"/>
+    <table:tableBreakdownArc axis="y" order="1" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown" xlink:from="sbr-table_1PeriodeDurationDisclosure_TableTable" xlink:to="sbr-table_1PeriodeDurationDisclosure_TableTable-y" xlink:type="arc"/>
+    <table:tableParameterArc name="FinancialReportingPeriodCurrentEndDateParam" xlink:arcrole="http://xbrl.org/arcrole/2014/table-parameter" xlink:from="sbr-table_1PeriodeDurationDisclosure_TableTable" xlink:to="FinancialReportingPeriodCurrentEndDateParam_loc" xlink:type="arc"/>
+  </gen:link>
+</link:linkbase>
