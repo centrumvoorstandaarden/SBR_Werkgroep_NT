@@ -8,6 +8,8 @@ Om het gebruik van een Extensible Enumeration 2.0 te illustreren is een voorbeel
 
 **taxonomie/www.nltaxonomie.nl/nt16/sbr/20210301/validation/iso3166-countrycodes-2020-11-24-members-def.xml** bevat de relaties die leiden tot de set van enumeratie waarden. De relaties gaan van sbr-dm:M49_001 (world) naar continent naar land. sbr-dm:M49_001 komt overeen met het linkrole attribuut van de enumeratie concepten. Omdat de relaties van de sbr-dm:M49_001 (world) naar de continenten xbrldt:usable="false" als attribuut hebben kunnen de continenten zelf niet gekozen worden als enumeratie waarde. De continenten dienen ter aggregatie van de onderliggende landen. sbr-dm:M49_001 (world) zelf is geen enumeratie waarde omdat enum2:headUsable op false staat (zie sbr-data.xsd).
 
+![Domein van landen](Countries.png)
+
 ### Toelichting op instances
 **instances/instance-valid.xml** - Een valide voorbeeld. CountrySingleSelect heeft CAF (Central African Republic (the)) als enumeratie waarde. CountryMultiSelect heeft CAF (Central African Republic (the)) én MAR (Morocco) als enumeratie waarden.
 
