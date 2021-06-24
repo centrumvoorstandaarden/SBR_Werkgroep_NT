@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Dutch Taxonomy (Nederlandse Taxonomie; NT)
+  Intellectual Property of the State of the Netherlands
+  Architecture: NT16
+  Version: 20210301
+  Release date Fri Feb 26, 2021
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+    <link:label id="sbr-i_CountryMultiSelect_label_nl" xlink:label="sbr-i_CountryMultiSelect_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Land (Multi select)</link:label>
+    <link:label id="sbr-i_CountrySingleSelect_label_nl" xlink:label="sbr-i_CountrySingleSelect_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Land (Single select)</link:label>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="sbr-i_CountryMultiSelect_loc" xlink:to="sbr-i_CountryMultiSelect_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="sbr-i_CountrySingleSelect_loc" xlink:to="sbr-i_CountrySingleSelect_label_nl" xlink:type="arc"/>
+    <link:loc xlink:href="sbr-data.xsd#sbr-i_CountryMultiSelect" xlink:label="sbr-i_CountryMultiSelect_loc" xlink:type="locator"/>
+    <link:loc xlink:href="sbr-data.xsd#sbr-i_CountrySingleSelect" xlink:label="sbr-i_CountrySingleSelect_loc" xlink:type="locator"/>
+  </link:labelLink>
+</link:linkbase>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Dutch Taxonomy (Nederlandse Taxonomie; NT)
+  Intellectual Property of the State of the Netherlands
+  Architecture: NT16
+  Version: 20210301
+  Release date Fri Feb 26, 2021
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="urn:sbr:linkrole:table" xlink:href="../dictionary/sbr-linkroles.xsd#sbr-lr_Table" xlink:type="simple"/>
+  <link:presentationLink xlink:role="urn:sbr:linkrole:table" xlink:type="extended">
+    <link:loc xlink:href="sbr-abstracts.xsd#sbr-abstr_TableTitle" xlink:label="sbr-abstr_TableTitle_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/sbr-data.xsd#sbr-i_CountryMultiSelect" xlink:label="sbr-i_CountryMultiSelect_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../dictionary/sbr-data.xsd#sbr-i_CountrySingleSelect" xlink:label="sbr-i_CountrySingleSelect_loc" xlink:type="locator"/>
+    <link:presentationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="sbr-abstr_TableTitle_loc" xlink:to="sbr-i_CountrySingleSelect_loc" xlink:type="arc"/>
+    <link:presentationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="sbr-abstr_TableTitle_loc" xlink:to="sbr-i_CountryMultiSelect_loc" xlink:type="arc"/>
+  </link:presentationLink>
+</link:linkbase>

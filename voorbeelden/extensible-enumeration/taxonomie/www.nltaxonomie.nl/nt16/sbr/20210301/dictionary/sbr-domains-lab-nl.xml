@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Dutch Taxonomy (Nederlandse Taxonomie; NT)
+  Intellectual Property of the State of the Netherlands
+  Architecture: NT16
+  Version: 20210301
+  Release date Fri Feb 26, 2021
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+    <link:label id="sbr-dm_M49-002_label_nl" xlink:label="sbr-dm_M49-002_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Afrika</link:label>
+    <link:label id="sbr-dm_M49-010_label_nl" xlink:label="sbr-dm_M49-010_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Antarctica</link:label>
+    <link:label id="sbr-dm_M49-142_label_nl" xlink:label="sbr-dm_M49-142_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Azië</link:label>
+    <link:label id="sbr-dm_M49-150_label_nl" xlink:label="sbr-dm_M49-150_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Europa</link:label>
+    <link:label id="sbr-dm_M49-019_label_nl" xlink:label="sbr-dm_M49-019_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Noord Amerika</link:label>
+    <link:label id="sbr-dm_M49-009_label_nl" xlink:label="sbr-dm_M49-009_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Oceanië</link:label>
+    <link:label id="sbr-dm_M49_001_label_nl" xlink:label="sbr-dm_M49_001_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Wereld</link:label>
+    <link:label id="sbr-dm_M49-005_label_nl" xlink:label="sbr-dm_M49-005_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Zuid Amerika</link:label>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="sbr-dm_M49-002_loc" xlink:to="sbr-dm_M49-002_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="sbr-dm_M49-005_loc" xlink:to="sbr-dm_M49-005_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="sbr-dm_M49-009_loc" xlink:to="sbr-dm_M49-009_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="sbr-dm_M49-010_loc" xlink:to="sbr-dm_M49-010_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="sbr-dm_M49-019_loc" xlink:to="sbr-dm_M49-019_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="sbr-dm_M49-142_loc" xlink:to="sbr-dm_M49-142_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="sbr-dm_M49-150_loc" xlink:to="sbr-dm_M49-150_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="sbr-dm_M49_001_loc" xlink:to="sbr-dm_M49_001_label_nl" xlink:type="arc"/>
+    <link:loc xlink:href="sbr-domains.xsd#sbr-dm_M49-002" xlink:label="sbr-dm_M49-002_loc" xlink:type="locator"/>
+    <link:loc xlink:href="sbr-domains.xsd#sbr-dm_M49-005" xlink:label="sbr-dm_M49-005_loc" xlink:type="locator"/>
+    <link:loc xlink:href="sbr-domains.xsd#sbr-dm_M49-009" xlink:label="sbr-dm_M49-009_loc" xlink:type="locator"/>
+    <link:loc xlink:href="sbr-domains.xsd#sbr-dm_M49-010" xlink:label="sbr-dm_M49-010_loc" xlink:type="locator"/>
+    <link:loc xlink:href="sbr-domains.xsd#sbr-dm_M49-019" xlink:label="sbr-dm_M49-019_loc" xlink:type="locator"/>
+    <link:loc xlink:href="sbr-domains.xsd#sbr-dm_M49-142" xlink:label="sbr-dm_M49-142_loc" xlink:type="locator"/>
+    <link:loc xlink:href="sbr-domains.xsd#sbr-dm_M49-150" xlink:label="sbr-dm_M49-150_loc" xlink:type="locator"/>
+    <link:loc xlink:href="sbr-domains.xsd#sbr-dm_M49_001" xlink:label="sbr-dm_M49_001_loc" xlink:type="locator"/>
+  </link:labelLink>
+</link:linkbase>
