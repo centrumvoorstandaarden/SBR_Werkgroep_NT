@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.03.00.16",
+    "name": {
+        "nl": "Extended links MOGEN NIET meer dan 1 locator bevatten die naar hetzelfde element refereert, behalve voor locators gerefereerd door kind elementen van parent-child arcs in een presentatie link, met dezelfde parent en met verschillende preferredLabel attributen, mogelijk met \u00e9\u00e9n arc zonder preferredLabel.",
+        "en": "Extended links MUST NOT contain more than 1 locator referring to the same element, except in the case of locators referred to by children of parent-child arcs in a presentation link, having the same parent and with different preferredLabel attributes, possibly with one arc without preferredLabel."
+    },
+    "explanation": {
+        "nl": "Technisch is het valide om een linkbase te hebben met meerdere locators voor hetzelfde element. Deze redundante locators voegen echter niets toe aan de werking van de DTS.",
+        "en": null
+    },
+    "introduction_date": "2015/12/02",
+    "agreed_date": "2015/12/02",
+    "error_message": {
+        "nl": "Extended links MOGEN NIET meer dan 1 locator bevatten die naar hetzelfde element refereert",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "XML Linkbase - Basis"
+}

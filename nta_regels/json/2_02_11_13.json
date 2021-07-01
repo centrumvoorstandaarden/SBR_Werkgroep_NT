@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.02.11.13",
+    "name": {
+        "nl": "VERWIJDERT <xs:field> MOET NIET gebruikt worden door NT Partners",
+        "en": "REMOVED <xs:field> MUST NOT be used by Dutch Taxonomy Partners"
+    },
+    "explanation": {
+        "nl": "NTB",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "decommission_date": "2013/03/13",
+    "error_message": {
+        "nl": "xs:field MOET NIET gebruikt worden door NT Partners",
+        "en": "xs:field MOET NIET gebruikt worden door NT Partners"
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "XML Schema - Overig"
+}

@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.02.11.10",
+    "name": {
+        "nl": "<xs:complexContent> met <xs:extension base=\"sbr:placeholder\"> MOET gebruikt worden bij gebruik van tuples",
+        "en": "<xs:complexContent> with <xs:extension base=\"sbr:placeholder\"> MUST be used by Dutch Taxonomy Partners when using tuples"
+    },
+    "explanation": {
+        "nl": "NTB",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "error_message": {
+        "nl": "xs:complexContent met xs:extension base=\"sbr:placeholder\" MOET gebruikt worden bij gebruik van tuples",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "XML Schema - Overig"
+}

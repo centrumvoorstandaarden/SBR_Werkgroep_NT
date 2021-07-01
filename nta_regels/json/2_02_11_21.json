@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.02.11.21",
+    "name": {
+        "nl": "<xs:restriction> MOET NIET gebruikt worden op <xs:element>, alleen op <xs:simpleType>",
+        "en": "<xs:restriction> MUST NOT be used on <xs:element>, only on <xs:simpleType>"
+    },
+    "explanation": {
+        "nl": "NTB",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "error_message": {
+        "nl": "xs:restriction MOET NIET gebruikt worden op xs:element, alleen op xs:simpleType",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "XML Schema - Overig"
+}

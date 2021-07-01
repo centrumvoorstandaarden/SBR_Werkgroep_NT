@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.01.00.01",
+    "name": {
+        "nl": "Taxonomie\u00ebn die onderdeel zijn van de Nederlandse Taxonomie (NT) MOETEN aan de onderstaande regels in het toepassingsgebied 'NT' voldoen. Taxonomie\u00ebn welke als Preparer extensions (PE) worden gedeponeerd, als uitbreiding op de Nederlandse Taxonomie (NT), MOETEN aan de onderstaande regels in het toepassingsgebied 'PE' voldoen.",
+        "en": "Taxonomies that are part of the Dutch Taxonomy, or of a PE MUST comply with all rules in this document"
+    },
+    "explanation": {
+        "nl": "Dit is een overkoepelende regel; een taxonomie voldoet aan deze regel als hij aan alle regels in dit document voldoet.",
+        "en": ""
+    },
+    "introduction_date": "2010/06/23",
+    "error_message": {
+        "nl": "nvt",
+        "en": ""
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "testable": false,
+    "section": "Algemeen"
+}

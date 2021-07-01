@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.03.09.17",
+    "name": {
+        "nl": "Fallback values MOETEN NIET strijdig zijn met de evaluatie in de assertion (bijvoorbeeld true/false tegen een 0)",
+        "en": "Fallback values MAY NOT clash with the evaluation in the assertion (for example true/false versus a 0)"
+    },
+    "explanation": {
+        "nl": "geen",
+        "en": null
+    },
+    "agreed_date": "2016/05/01",
+    "error_message": {
+        "nl": "geen",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "XML Linkbase - Controle regels"
+}

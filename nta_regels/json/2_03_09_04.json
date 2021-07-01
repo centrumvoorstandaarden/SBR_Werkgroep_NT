@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.03.09.04",
+    "name": {
+        "nl": "Bij een XBRL formule assertion MOET het resultaat 'false' gebruikt worden voor een foutsituatie",
+        "en": "With XBRL Formula assertions the result \"false\" MUST be used for an error situation"
+    },
+    "explanation": {
+        "nl": "Om te voorkomen dat \"true\" ook een foutsituatie kan voorstellen.",
+        "en": null
+    },
+    "introduction_date": "2016/05/01",
+    "error_message": {
+        "nl": "Assertions die resulteren in false MOETEN een foutsituatie voorstellen",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "XML Linkbase - Controle regels"
+}

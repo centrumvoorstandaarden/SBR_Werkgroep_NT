@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.02.02.17",
+    "name": {
+        "nl": "xs:schema/xs:element/@nillable=\u2019false\u2019 MOET gebruikt worden als xs:schema/xs:element/@substitutionGroup=\u2019xbrli:tuple\u2019 en zijn afgeleidden",
+        "en": "xs:schema/xs:element/@nillable=\u2019false\u2019 MUST be used when xs:schema/xs:element/@substitutionGroup=\u2019xbrli:tuple\u2019 and its derivatives"
+    },
+    "explanation": {
+        "nl": "Tuples zijn complexType elementen die geen waarde kunnen bevatten conform de XBRL 2.1 specificatie. Om geen impliciete waarden op te nemen wordt de @nillable op \u2018false\u2019 gezet.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "error_message": {
+        "nl": "//xs:element/@nillable=\u2019false\u2019 MOET gebruikt worden als //xs:element/@substitutionGroup=\u2019xbrli:tuple\u2019",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "XML Schema - Concepten"
+}

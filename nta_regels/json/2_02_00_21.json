@@ -1,0 +1,21 @@
+{
+    "rule_nr": "2.02.00.21",
+    "name": {
+        "nl": "In de PE of NT gedefinieerde elementen MOETEN gerefereerd worden door een presentation of definition linkbase in het PE of enig NT entrypoint waardoor het element in een presentatie of instance terecht kan komen",
+        "en": "NT defined elements MUST be referred to by P- or D-links in \nany DTS entrypoint to have it represented in an instance or presentation."
+    },
+    "explanation": {
+        "nl": "Van elementen die in NT domeinen aangemaakt worden, wordt verwacht dat ze ondersteunend zijn aan een formulier (entrypoint) dat gevoerd wordt. Niet gebruikte elementen verzwaren de NT onnodig en dienen voorkomen te worden.",
+        "en": ""
+    },
+    "introduction_date": "2010/06/23",
+    "related": "2.02.02.04",
+    "error_message": {
+        "nl": "Door NT partners gedefinieerde concepten MOETEN in minimaal een entrypoint gebruikt worden",
+        "en": ""
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "testable": false,
+    "section": "XML Schema - Basis"
+}

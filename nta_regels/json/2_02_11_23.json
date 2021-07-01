@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.02.11.23",
+    "name": {
+        "nl": "<xs:unique> MOET NIET gebruikt worden",
+        "en": "<xs:unique> MUST NOT be used in the Dutch Taxonomy"
+    },
+    "explanation": {
+        "nl": "Indien een NT domein behoefte aan gebruik hiervan kan dit aangevraagd worden bij SBR-NT-Beheer, die het onderwerp vervolgens agendeert in het NT-overleg.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "error_message": {
+        "nl": "xs:unique MOET NIET gebruikt worden",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "XML Schema - Overig"
+}

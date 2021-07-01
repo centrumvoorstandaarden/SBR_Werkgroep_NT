@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.03.09.03",
+    "name": {
+        "nl": "<formula:formula> MOET NIET gebruikt worden",
+        "en": "<formula:formula> MUST NOT be used"
+    },
+    "explanation": {
+        "nl": "Van de XBRL Formule specificatie wordt (voorlopig) alleen de assertion gebruikt. Met name de onduidelijkheid van de status van een tweede (resultaat) instance en de manier waarop deze wel of niet gecommuniceerd wordt zorgt alleen voor meer onzekerheid in de markt.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "error_message": {
+        "nl": "formula:formula MOET NIET gebruikt worden",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "XML Linkbase - Controle regels"
+}

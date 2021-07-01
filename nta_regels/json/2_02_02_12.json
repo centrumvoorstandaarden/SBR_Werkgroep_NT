@@ -1,0 +1,22 @@
+{
+    "rule_nr": "2.02.02.12",
+    "name": {
+        "nl": "VERVALLEN @form MOET NIET op <xs:element> geplaatst worden",
+        "en": "EXPIRED @form MUST NOT be used on <xs:element>"
+    },
+    "explanation": {
+        "nl": "Met het @form attribuut kan de @elementFormDefault uit <xs:schema> overruled worden. Met de waarde \u2018qualified\u2019 wordt afgedwongen dat aan dit element alleen gerefereerd kan worden met een QName (Qualified Name) dus met een namespace prefix identifier voor de @name. Dit is de common practice bij XML schema\u2019s.\nFRTA 4.2.4 stelt dat <xs:schema elementFormDefault=\u201dqualified\u201d/>, dus is het enige logische gebruik dat de waarde \u2018unqualified\u2019 op elementniveau gevoerd kan worden.  Dit wordt door FRTA verboden.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "decommission_date": "2011/07/04",
+    "related": "4.01.046",
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "references": "SBR Australi\u00eb: 137 SI",
+    "section": "XML Schema - Concepten"
+}

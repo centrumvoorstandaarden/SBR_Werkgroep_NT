@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.03.08.07",
+    "name": {
+        "nl": "Een <link:label> inhoud MOET behandeld worden als een xs:tokenizedString",
+        "en": "The content of <link:label> MUST be regarded as xs:tokenizedString"
+    },
+    "explanation": {
+        "nl": "Om te voorkomen dat er bijzondere tekens als TAB, CR/LF etc. in dit element terecht komen.",
+        "en": null
+    },
+    "introduction_date": "2011/04/06",
+    "related": "3.02.07.14",
+    "error_message": {
+        "nl": "link:label MOET xs:tokenizedString gebaseerd zijn",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "XML Linkbase - Labels"
+}

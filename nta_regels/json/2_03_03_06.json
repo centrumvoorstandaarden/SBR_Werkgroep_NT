@@ -1,0 +1,18 @@
+{
+    "rule_nr": "2.03.03.06",
+    "name": {
+        "nl": "Dimension-domain relaties met @usable=\"true\" MOETEN GEEN @targetRole hebben.",
+        "en": "Dimension-domain relationships with @usable=\"true\" MUST NOT have @targetRole."
+    },
+    "explanation": {
+        "nl": "Directe nesting van members aan de dimensie moet gepaard gaan met @usable=true. Dan is er dus ook geen @targetRole van toepassing. De dimension-domain relatie zit zelf in de standaard linkrole.\n\nOmgekeerd geldt ook: als @usable=\"false\" dan wordt er kennelijk een echt domein geadresseerd. Die inhoud moet ergens anders in een custom linkrole opgenomen zijn. De @targetRole is dus gevuld.",
+        "en": null
+    },
+    "error_message": {
+        "nl": "Dimension-domain relaties met @usable=&quot;true&quot; MOETEN GEEN @targetRole hebben.",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "XML Linkbase - Referenties"
+}

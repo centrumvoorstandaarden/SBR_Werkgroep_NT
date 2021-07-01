@@ -1,0 +1,23 @@
+{
+    "rule_nr": "2.02.02.32",
+    "name": {
+        "nl": "VERVALLEN Tuples MOETEN NIET @abstract='true' hebben",
+        "en": "REMOVED Tuples MUST NOT have abstract='true'"
+    },
+    "explanation": {
+        "nl": "De tuple is bedoeld om kind items te binden, het niet kunnen opnemen van de tuple in de instance werkt dan contraproductief waardoor de hele constructie zijn reden van bestaan ondergraaft.",
+        "en": ""
+    },
+    "introduction_date": "2011/04/06",
+    "decommission_date": "2011/11/22",
+    "related": "2.02.02.03",
+    "error_message": {
+        "nl": "",
+        "en": ""
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "testable": false,
+    "nta_versions": "NT14",
+    "section": "XML Schema - Concepten"
+}

@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.02.00.07",
+    "name": {
+        "nl": "Een schema MOET de root node (xs:schema) direct achter de IP rechten hebben",
+        "en": "A schema MUST have its root node (xs:schema) directly after the IP declaration"
+    },
+    "explanation": {
+        "nl": "Geen andere reden dan consistentie.",
+        "en": ""
+    },
+    "introduction_date": "2010/06/23",
+    "error_message": {
+        "nl": "XML Schema XML comment node MOET gevolgd worden door de xs:schema node",
+        "en": ""
+    },
+    "nta_rule": false,
+    "pe_rule": false,
+    "testable": false,
+    "section": "XML Schema - Basis"
+}

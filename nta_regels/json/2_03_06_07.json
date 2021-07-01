@@ -1,0 +1,18 @@
+{
+    "rule_nr": "2.03.06.07",
+    "name": {
+        "nl": "Dimensies MOETEN NIET worden aangemaakt",
+        "en": null
+    },
+    "explanation": {
+        "nl": "NA",
+        "en": null
+    },
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "nta_rule": false,
+    "pe_rule": true,
+    "section": "XML Linkbase - Dimensies"
+}

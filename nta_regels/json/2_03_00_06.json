@@ -1,0 +1,21 @@
+{
+    "rule_nr": "2.03.00.06",
+    "name": {
+        "nl": "Een linkbase MOET alleen prefixed nodes bevatten",
+        "en": "A linkbase MUST contain only prefixed nodes"
+    },
+    "explanation": {
+        "nl": "Zie 2.02.00.06",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "related": "2.02.00.06",
+    "error_message": {
+        "nl": "XML Linkbase MOET NIET ongeprefixte nodes bevatten",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "references": "SBR Australi\u00eb: 32 SA",
+    "section": "XML Linkbase - Basis"
+}

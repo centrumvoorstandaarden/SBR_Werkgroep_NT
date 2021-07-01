@@ -1,0 +1,21 @@
+{
+    "rule_nr": "2.02.00.22",
+    "name": {
+        "nl": "Er mag slechts \u00e9\u00e9n <xs:annotation> node in een schema bestand voorkomen",
+        "en": "Only one <xs:annotation> per schema file is allowed"
+    },
+    "explanation": {
+        "nl": "Theoretisch kan elke <appinfo> kind in zijn eigen <annotation> parent opgenomen worden. Onnodig en vervuilend.\nDe enige andere child node is xs:documentation, de inhoud hiervan dient in linkbases (label of reference) opgelost te worden.",
+        "en": ""
+    },
+    "introduction_date": "2011/11/23",
+    "related": "2.02.00.12",
+    "error_message": {
+        "nl": "Er mag slechts \u00e9\u00e9n <xs:annotation> node in een schema bestand voorkomen",
+        "en": ""
+    },
+    "nta_rule": false,
+    "pe_rule": false,
+    "testable": false,
+    "section": "XML Schema - Basis"
+}

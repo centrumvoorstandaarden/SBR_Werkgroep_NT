@@ -1,0 +1,19 @@
+{
+    "rule_nr": "3.02.13.03",
+    "name": {
+        "nl": "ADVIES: Een enumeratie waarde MOET in dezelfde taal als de waarde van het xml=lang attribuut uit de instance worden gedefinieerd",
+        "en": null
+    },
+    "explanation": {
+        "nl": "nvt",
+        "en": null
+    },
+    "related": "3.02.13.02",
+    "error_message": {
+        "nl": "nvt",
+        "en": null
+    },
+    "nta_rule": false,
+    "pe_rule": true,
+    "section": "Naamgeving - Enumeratie waarden"
+}

@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.03.03.04",
+    "name": {
+        "nl": "Een reference resource inhoud MOET opgesplitst worden over de van toepassing zijnde link:parts",
+        "en": "The content of a reference resource MUST be split on the appropriate link:parts"
+    },
+    "explanation": {
+        "nl": "De verwijzing naar documentatie met daarin (o.a.) de definitie is veelal opgebouwd uit diverse onderdelen. Bv. Wet, artikel, paragraaf, hoofdstuk. Omdat deze onderdelen allen een zeer specifieke betekenis hebben dienen zij in de daarvoor bestemde reference resource parts ondergebracht te worden. Het concateneren van in de bases gescheiden informatie eenheden levert beheersmatig en qua betekenis interpretatie problemen op. Bv. Een documentverwijzing als \"NTA Versie 1 Hoofdstuk 2 Regel 2.03.03.04\" als \u00e9\u00e9n string levert onnodige mutaties op bij vervanging door versie 2.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "references": "FRTA 2.1.19",
+    "section": "XML Linkbase - Referenties"
+}

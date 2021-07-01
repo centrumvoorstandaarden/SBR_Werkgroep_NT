@@ -1,0 +1,20 @@
+{
+    "rule_nr": "3.02.09.10",
+    "name": {
+        "nl": "Een NT linkrole URI MOET de volgende structuur volgen:\nurn:{NT partner prefix}:linkrole:{functionele naam}",
+        "en": "Dutch Taxonomy linkrole URI\"s MUST follow the sequence:\nurn:{NT partner prefix}:linkrole:{functional name}"
+    },
+    "explanation": {
+        "nl": "Functionele naam; geeft de groepering van de relaties in de linkrole aan, MOET in het Engels.\n\nVoorbeelden:\n* urn:bd:linkrole:cube-tc-ps \n* urn:bd:linkrole:investmentdeductions \n* urn:kvk:linkrole:basis-of-preparation-axis",
+        "en": null
+    },
+    "introduction_date": "2013/05/15",
+    "agreed_date": "2012/12/05",
+    "error_message": {
+        "nl": "Een NT linkrole URI MOET de volgende structuur volgen: urn:{NT partner prefix}:linkrole:{functionele naam}",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "Naamgeving - Linkrole URI"
+}

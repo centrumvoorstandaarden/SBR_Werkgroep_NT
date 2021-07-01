@@ -1,0 +1,21 @@
+{
+    "rule_nr": "2.03.00.04",
+    "name": {
+        "nl": "Een linkbase MOET in een XML Commentaar sectie op regel twee (en verder) de IP rechten opstellen",
+        "en": "A linkbase MUST draw the IP rights in the XML comment section on line number two (and beyond)"
+    },
+    "explanation": {
+        "nl": "Zie 2.02.00.04",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "related": "2.02.00.04",
+    "error_message": {
+        "nl": "XML Linkbase MOET een XML commentaar op regel 2 van het bestand hebben",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "references": "SBR Australi\u00eb: 7 SA",
+    "section": "XML Linkbase - Basis"
+}

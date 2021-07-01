@@ -1,0 +1,21 @@
+{
+    "rule_nr": "3.02.09.06",
+    "name": {
+        "nl": "VERVALLEN Een NT linkrole URI MOET de volgende structuur volgen: http://www.nltaxonomie.nl / {mapnamen} / {functionele naam} - {dim}",
+        "en": "REMOVED Dutch Taxonomy linkrole URI's MUST have the following construction: http://www.nltaxonomie.nl / {folder path} / {functional name} - {dim}"
+    },
+    "explanation": {
+        "nl": "* Mapnamen; de namen van de directories waarin de linkbase zijn opgenomen is inclusief de root en zijn van elkaar gescheiden door een slash teken.\n* Functionele naam; geeft de groepering van de relaties in de linkrole aan, MOET in het Nederlands.\n* Dim; staat voor linkroles die een rol spelen in een dimensioneel model en daarvoor gelden aanvullende regels:\n** Relaties tussen domein leden en domein, voeg \u2018domain\u2019 aan het einde toe; \n** Relaties tussen domein en dimensie, voeg \u2018axis\u2019 aan het einde toe;\n** Relaties tussen dimensie en hypercube, voeg \u2018table\u2019 aan het einde toe;\n** Relaties tussen primaries en domein, voeg \u2018lineitem\u2019 aan het einde toe.\n* Voor linkroles die hypercubes bevatten wordt expliciet voor de dimensionele arcroles \u00b4all\u00b4 en \u00b4notAll\u00b4 aanvullend gesteld dat de arcrole in de linkrole opgenomen wordt.\n\nVoorbeelden:\n* http://www.nltaxonomie.nl/5.0/report/bd/linkroles/fs-bd-aangifte/aangifte-inkomstenbelasting\n* http://www.nltaxonomie.nl/5.0/report/bd/linkroles/fs-bd-deelneming/deelnemingen\n* http://www.nltaxonomie.nl/5.0/report/kvk/linkroles/fs-cjr-bal-jr",
+        "en": null
+    },
+    "introduction_date": "2010/11/17",
+    "decommission_date": "2013/05/15",
+    "related": "3.02.09.10",
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "Naamgeving - Linkrole URI"
+}

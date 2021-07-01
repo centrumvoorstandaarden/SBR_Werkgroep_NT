@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.03.00.14",
+    "name": {
+        "nl": "Een linkbase MOET NIET resources declareren die niet gebruikt worden in de linkbase",
+        "en": "A linkbase MUST NOT declare resources that are not being used in the linkbase"
+    },
+    "explanation": {
+        "nl": "Technisch is het valide om een linkbase te hebben met ongebruikte resources. Deze resources voegen echter niets toe aan de werking van de DTS.",
+        "en": null
+    },
+    "introduction_date": "2015/12/02",
+    "agreed_date": "2015/12/02",
+    "error_message": {
+        "nl": "XML Linkbase MOET NIET ongebruikte resources declareren",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "XML Linkbase - Basis"
+}

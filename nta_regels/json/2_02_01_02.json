@@ -1,0 +1,21 @@
+{
+    "rule_nr": "2.02.01.02",
+    "name": {
+        "nl": "Een schema dat concepten definieert MOET een 2.1 label linkbase gelinkt hebben. Een NT schema waarin niet-rapporteerbare concepten gedefinieerd zijn ten behoeve van de presentation hi\u00ebrarchie voor tables MOET een generic label linkbase gelinkt hebben\nEen schema waarin niet-rapporteerbare concepten gedefinieerd zijn ten behoeve van de presentation hi\u00ebrarchie voor tables MOET een generic label linkbase gelinkt hebben",
+        "en": "A schema that defines concepts MUST have a linked 2.1 label linkbase\n\nA schema defining non-reportable concepts for the presentation hierarchy of tables MUST have a linked generic label linkbase."
+    },
+    "explanation": {
+        "nl": "Elk schema dat XML nodes cre\u00ebert moet de mogelijkheid bieden deze nodes op een correcte manier in een presentatiewijze op te nemen. De XBRL specificatie heeft voor concepten een label linkbase ingericht om deze presentatie te ondersteunen. De NT stelt met deze regel verplicht dat de labels van een concept bij het schema staan waar de creatie plaats vindt. Te samen met regel 2.02.02.26 wordt afgedwongen dat elk concept een label heeft en waar dit label te vinden is.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "related": "2.02.02.26",
+    "error_message": {
+        "nl": "XML Schema's waarin concepten aangemaakt worden MOETEN een 2.1 label linkbase gelinkt hebben.\n\nXML Schema\u2019s waarin niet-rapporteerbare concepten gedefinieerd zijn ten behoeve van de presentation hi\u00ebrarchie voor tables MOETEN een generic label linkbase gelinkt hebben.",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "references": "SBR-AU: 15 SI",
+    "section": "XML Schema - XLink"
+}

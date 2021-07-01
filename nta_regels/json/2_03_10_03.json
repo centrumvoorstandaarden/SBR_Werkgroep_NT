@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.03.10.03",
+    "name": {
+        "nl": "@xlink:title MOET NIET gebruikt worden",
+        "en": "@xlink:title MUST NOT be used"
+    },
+    "explanation": {
+        "nl": "Niet toegestaan zolang er geen use case voor gedefinieerd wordt.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "related": "4.02.008",
+    "error_message": {
+        "nl": "@xlink:title MOET NIET gebruikt worden",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "XML Linkbase - Overig"
+}

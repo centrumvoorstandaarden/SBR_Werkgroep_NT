@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.02.08.01",
+    "name": {
+        "nl": "Typed dimensie elementen MOETEN een Generic Label hebben",
+        "en": "Typed dimension elements MUST have a Generic Label"
+    },
+    "explanation": {
+        "nl": "Typed dimensies worden gevormd door een XML Schema element. Omdat dit geen XBRL concept is, is er geen door de XBRL specificatie voorgeschreven methode om dit element toe te lichten of voor presentatie doeleinden van labels te voorzien. Hiervoor wordt een Generic Label linkbase ingezet.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "error_message": {
+        "nl": "Typed dimensie elementen MOETEN een Generic Label hebben",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "XML Schema - Dimensies"
+}

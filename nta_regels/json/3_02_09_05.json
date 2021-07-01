@@ -1,0 +1,21 @@
+{
+    "rule_nr": "3.02.09.05",
+    "name": {
+        "nl": "VERVALLEN Een linkrole URI MOET beginnen met http://www.nltaxonomie.nl",
+        "en": "REMOVED Linkrole URIs MUST start with http://www.nltaxonomie.nl"
+    },
+    "explanation": {
+        "nl": "NA",
+        "en": null
+    },
+    "introduction_date": "2010/11/17",
+    "decommission_date": "2013/05/15",
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "references": "3.02.09.10",
+    "section": "Naamgeving - Linkrole URI"
+}

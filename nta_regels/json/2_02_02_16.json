@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.02.02.16",
+    "name": {
+        "nl": "xs:schema/xs:element/@nillable=\u2019false\u2019 MOET gebruikt worden als xs:schema/xs:element/@abstract=\u2019true\u2019",
+        "en": "xs:schema/xs:element/@nillable=\u2019false\u2019 MUST be used when xs:schema/xs:element/@abstract=\u2019true\u2019"
+    },
+    "explanation": {
+        "nl": "Ondanks dat abstracte elementen geen waarde kunnen bevatten wordt in de NTA toch gekozen het @nillable aanwezig te laten zijn. De consistentie en het niet toestaan van impliciete waarden wegen in deze zwaarder dan het eigenlijk geen nut hebben van dit attribuut op abstract elementen.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "error_message": {
+        "nl": "//xs:element/@nillable=\u2019false\u2019 MOET gebruikt worden als //xs:element/@abstract=\u2019true\u2019",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "XML Schema - Concepten"
+}

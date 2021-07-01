@@ -1,0 +1,21 @@
+{
+    "rule_nr": "2.02.02.08",
+    "name": {
+        "nl": "xs:schema/xs:element/@abstract is verplicht",
+        "en": "xs:schema/xs:element/@abstract is mandatory"
+    },
+    "explanation": {
+        "nl": "Het @abstract kent een default waarde. Om deze te expliciteren MOET het attribuut op een <xs:element> opgenomen worden.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "related": "4.01.041",
+    "error_message": {
+        "nl": "xs:schema/xs:element/@abstract is verplicht",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "references": "SBR Australi\u00eb: 133 SI",
+    "section": "XML Schema - Concepten"
+}

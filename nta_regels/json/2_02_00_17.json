@@ -1,0 +1,21 @@
+{
+    "rule_nr": "2.02.00.17",
+    "name": {
+        "nl": "xs:schema/xs:import/@schemaLocation MOET gebruik maken van relatieve URIs voor bestanden binnen een versie van de NT of binnen de PE",
+        "en": "xs:schema/xs:import/@schemaLocation MUST use relative URIs for files inside a version of the DTS"
+    },
+    "explanation": {
+        "nl": "De NT bestanden worden niet aan de internet URL gerefereerd maar aan de mappenstructuur binnen de uitgeleverde ZIP. Dit voorkomt problemen bij partijen die geen externe verbinding kunnen leggen vanuit hun infrastructuur, en garandeert dat bij validatie alle NT onderdelen aanwezig moeten zijn.",
+        "en": ""
+    },
+    "introduction_date": "2010/06/23",
+    "related": "4.01.074",
+    "error_message": {
+        "nl": "xs:schema/xs:import/@schemaLocation MOET relatieve URI\"s gebruiken voor bestanden binnen de DTS versie",
+        "en": ""
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "testable": false,
+    "section": "XML Schema - Basis"
+}

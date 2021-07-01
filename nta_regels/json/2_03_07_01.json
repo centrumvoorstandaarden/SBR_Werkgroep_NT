@@ -1,0 +1,21 @@
+{
+    "rule_nr": "2.03.07.01",
+    "name": {
+        "nl": "VERVALLEN; Niet abstracte items die als domeinlid gebruikt worden MOETEN genest worden onder een item in de substitutionGroup sbr:primaryDomainItem",
+        "en": "REMOVED; Non-abstract items that are used as domain member MUST be nested under an item in the sbr:primaryDomainItem substitutionGroup"
+    },
+    "explanation": {
+        "nl": "Domeinleden worden gegroepeerd in een domein en dit domein wordt aan de dimensie gekoppeld. Een andere zijde van kubes zijn de primaries. Deze kennen geen groepering als een domein. Deze regel zorgt ervoor dat ook zij gegroepeerd worden onder een (abstract) element die als een as aan de kubus wordt toegewezen.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "decommission_date": "2011/10/01",
+    "related": "2.03.07.02",
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "XML Linkbase - Domeinen en Domeinleden"
+}

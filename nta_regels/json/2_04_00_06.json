@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.04.00.06",
+    "name": {
+        "nl": "Instances MOETEN een 'default' taal met xbrli:xbrl/@xml:lang bekend maken.",
+        "en": "Instances MUST publish a 'default' language with xbrli:xbrl/@xml:lang."
+    },
+    "explanation": {
+        "nl": "String waarden moeten op taal geinterpreteerd kunnen worden. Dit gebeurd door de taal indicatie. Per feit kan er eventueel overruled worden door aldaar een andere @xml:lang waarde op te geven.",
+        "en": null
+    },
+    "decommission_date": "2011/01/01",
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "XBRL Instance - Basis"
+}

@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.02.02.09",
+    "name": {
+        "nl": "//xs:element/@block is NIET toegestaan",
+        "en": "//xs:element/@block is NOT allowed"
+    },
+    "explanation": {
+        "nl": "Dit attribuut wordt in de bouw van XML Schema\u2019s gebruikt om te voorkomen dat een nieuw element afgeleid wordt van het complexType waarop dit attribuut geplaatst is en daarmee kan dienen als substitutionGroup. Het attribuut heeft alleen zin als de element auteur wil voorkomen dat er afgeleide elementen op zijn element gemaakt worden, maar het houdt niemand tegen die een soortgelijk element wil maken zonder de afleiding bekend te maken.\nDe regel geldt onafhankelijk van de plaats in de hi\u00ebrarchie waar het element aangemaakt wordt.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "error_message": {
+        "nl": "//xs:element/@block is NIET toegestaan",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "references": "SBR Australi\u00eb: 134 SI",
+    "section": "XML Schema - Concepten"
+}

@@ -1,0 +1,17 @@
+{
+    "rule_nr": "2.03.09.08",
+    "name": {
+        "nl": "Assertions MOETEN een generic label of een generic reference naar documentatie hebben",
+        "en": "Assertions MUST have a generic label or a generic reference to documentation"
+    },
+    "explanation": {
+        "nl": "De uitleg in wat de formule controleert moet beschikbaar gemaakt worden. De vorm van de documentatie is vrij (Word, PDF, website etc.)",
+        "en": null
+    },
+    "introduction_date": "2016/05/01",
+    "error_message": {
+        "nl": "Assertions MOETEN een generic label of reference hebben",
+        "en": null
+    },
+    "section": "XML Linkbase - Controle regels"
+}

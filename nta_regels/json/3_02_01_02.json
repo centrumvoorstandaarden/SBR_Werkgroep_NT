@@ -1,0 +1,19 @@
+{
+    "rule_nr": "3.02.01.02",
+    "name": {
+        "nl": "De map naam MOET in lowercase, en mag geen spaties bevatten.",
+        "en": "Folder names MUST be lower case and MUST NOT contain spaces."
+    },
+    "explanation": {
+        "nl": "Spaties zorgen in sommige operatingsystemen voor %20 invoegingen. In Unix worden uppercase tekens anders behandelt dan in Windows. Om verwarring te voorkomen, deze regel.",
+        "en": null
+    },
+    "introduction_date": "2010/11/17",
+    "error_message": {
+        "nl": "De map naam MOET in lowercase en MOET NIET spaties bevatten",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "Naamgeving - Bestanden en directories"
+}

@@ -1,0 +1,20 @@
+{
+    "rule_nr": "3.02.05.14",
+    "name": {
+        "nl": "VERVALLEN Concepten in de substitutionGroup xbrldt:dimensionItem MOETEN een achtervoegsel \u2018TypedAxis\u2019 krijgen als ze een typed dimensie zijn",
+        "en": "REMOVED Concepts in the substitutionGroup xbrldt:dimensionItem MUST have the suffix 'TypedAxis' if they represent a typed dimension"
+    },
+    "explanation": {
+        "nl": "Internationale best practice",
+        "en": null
+    },
+    "introduction_date": "2012/01/01",
+    "decommission_date": "2013/05/15",
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "Naamgeving - Element @name"
+}

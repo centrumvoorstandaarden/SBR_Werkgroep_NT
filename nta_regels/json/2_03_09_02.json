@@ -1,0 +1,17 @@
+{
+    "rule_nr": "2.03.09.02",
+    "name": {
+        "nl": "<variable:factVariable> MOET een unieke combinatie van attributen en filters bevatten.",
+        "en": "<variable:factVariable> MUST contain a unique combination of attributes and filters."
+    },
+    "explanation": {
+        "nl": "Het kan wel nodig zijn factVariables met verschillende filtering voor hetzelfde fact op te nemen.",
+        "en": null
+    },
+    "introduction_date": "2016/05/01",
+    "error_message": {
+        "nl": "variable:factVariable MOET een unieke combinatie van attributen en filters bevatten.",
+        "en": null
+    },
+    "section": "XML Linkbase - Controle regels"
+}

@@ -1,0 +1,18 @@
+{
+    "rule_nr": "3.02.15.01",
+    "name": {
+        "nl": "Elke XML node die in de instance voor kan komen, MOET worden voorzien van een standaard label in de lokale taal",
+        "en": "XML nodes that can appear in instances MUST have standard labels in the local language"
+    },
+    "explanation": {
+        "nl": "Andere xlink:roles dan de standaard label mogen aangeboden worden mits deze in hetzelfde aantal talen aangeboden wordt (dus: een NL-terseLabel en een EN-standaard label verplicht tot een EN-terse label)",
+        "en": null
+    },
+    "error_message": {
+        "nl": "Elke XML node die in de instance voor kan komen, MOET worden voorzien van een standaard label in de lokale taal",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "Naamgeving - Taal aspecten"
+}

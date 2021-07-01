@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.02.07.06",
+    "name": {
+        "nl": "Enumeraties MOETEN niet gebruikt worden (gebruik domein)",
+        "en": null
+    },
+    "explanation": {
+        "nl": "nvt",
+        "en": null
+    },
+    "related": "2.02.07.03",
+    "error_message": {
+        "nl": "nvt",
+        "en": null
+    },
+    "nta_rule": false,
+    "pe_rule": true,
+    "section": "XML Schema - Type & Enumeraties"
+}

@@ -1,0 +1,19 @@
+{
+    "rule_nr": "3.02.01.15",
+    "name": {
+        "nl": "Het indicatieve deel van een XML schema bestandsnaam MOET in dezelfde taal als de waarde van het xml=lang attribuut van de instance zijn",
+        "en": null
+    },
+    "explanation": {
+        "nl": "nvt",
+        "en": null
+    },
+    "related": "3.02.01.07",
+    "error_message": {
+        "nl": "nvt",
+        "en": null
+    },
+    "nta_rule": false,
+    "pe_rule": true,
+    "section": "Naamgeving - Bestanden en directories"
+}

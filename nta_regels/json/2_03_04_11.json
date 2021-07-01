@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.03.04.11",
+    "name": {
+        "nl": "In een tabel MOETEN concepten dmv een conceptRelationshipNode opgenomen worden, TENZIJ \u00e9\u00e9n enkel concept uit een p-link los moet worden opgenomen.",
+        "en": "In a table, concepts must be added using a conceptRelationshipNode UNLESS one single concept from a p-link must be added separately"
+    },
+    "explanation": {
+        "nl": "Elementen welke in een presentation linkbase opgenomen zijn, moeten met een conceptRelationshipNode opgenomen worden in een tabel. Hierdoor dient de presentationlinkbase als input voor de conceptRelationshipNode van de tabel. \n\nAchtergrond bij deze regel is dat het niet de bedoeling is iedere individuele cel te defini\u00ebren, maar alleen de assen (bijvoorbeeld middels een p-link).\nHet is wel mogelijk dat een element welke in de p-link staat los aangegeven kan worden op een as. Hierdoor is het mogelijk om 1 element \u201cmerged\u201d en \u201cabstracted\u201d op te nemen (dit is niet mogelijk bij conceptRelationshipNode).\nHierdoor wordt nog steeds niet een individuele cel gedefinieerd, maar de restrictie geldt op de hele as.",
+        "en": null
+    },
+    "introduction_date": "2016/05/01",
+    "agreed_date": "2016/05/01",
+    "error_message": {
+        "nl": "geen",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "XML Linkbase - Presentatie"
+}

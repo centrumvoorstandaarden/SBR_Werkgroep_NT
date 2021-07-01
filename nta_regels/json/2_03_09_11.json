@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.03.09.11",
+    "name": {
+        "nl": "Iedere assertion MOET een unsatisfied message middels een http://xbrl.org/arcrole/2010/assertion-unsatisfied-message arc hebben.",
+        "en": "Each assertion MUST have an unsatisfied message, through a http://xbrl.org/arcrole/2010/assertion-unsatisfied-message arc."
+    },
+    "explanation": {
+        "nl": "Alle foutsituaties moeten een melding krijgen.",
+        "en": null
+    },
+    "introduction_date": "2016/05/01",
+    "error_message": {
+        "nl": "geen",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "XML Linkbase - Controle regels"
+}

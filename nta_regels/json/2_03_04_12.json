@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.03.04.12",
+    "name": {
+        "nl": "In een tabel MOETEN indien er meer dan \u00e9\u00e9n Sbr:domainMemberItem onder \u00e9\u00e9n dimensionItem gemodelleerd zijn deze dmv een dimensionRelationshipNode worden opgenomen.",
+        "en": "In a table, if more than one Sbr:domainMemberItem is modeled under a single dimensionItem, these MUST be included using a dimensionRelationshipNode."
+    },
+    "explanation": {
+        "nl": "Elementen welke in een definition linkbase opgenomen zijn, moeten met een dimensionRelationshipNode opgenomen worden in een tabel, behalve als er maar \u00e9\u00e9n member van toepassing is op die as. Indien er \u00e9\u00e9n member actief is voor de as mag er gebruik gemaakt worden van een ruleNode, zodat deze member gemerged in de tabel gemodelleerd kan worden.\n\nAchtergrond bij deze regel is dat het niet de bedoeling is iedere individuele cel te defini\u00ebren, maar alleen de assen (bijvoorbeeld middels een d-link).",
+        "en": null
+    },
+    "introduction_date": "2016/05/01",
+    "agreed_date": "2016/05/01",
+    "error_message": {
+        "nl": "geen",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "XML Linkbase - Presentatie"
+}

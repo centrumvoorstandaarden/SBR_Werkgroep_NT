@@ -1,0 +1,21 @@
+{
+    "rule_nr": "2.02.02.20",
+    "name": {
+        "nl": "@type van item concepten BEHOORT xbrli gedefinieerde types te refereren, daarvan afgeleid te zijn of de sbr:placeholder, indien @substitionGroup een waarde bevat uit de xbrli namespace of daarvan afgeleid is.",
+        "en": "@type of item concepts SHOULD refer to xbrli defined types, its derivations or sbr:placeholder, when @substitutionGroup contains a value from the xbrli namespace or its derivation"
+    },
+    "explanation": {
+        "nl": "XBRL 2.1 regel",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "related": "4.01.054",
+    "error_message": {
+        "nl": "xs:element/@type BEHOORT in de xbrli namespace gedefineerd zijn, daarvan afgeleid zijn of sbr:placeholder zijn, indien de @substitutionGroup inhoud van de xbrli namespace is, of daarvan afgeleid",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "references": "XBRL2.1: 5.1.1.3\nFRTA1.0: 2.2.1",
+    "section": "XML Schema - Concepten"
+}

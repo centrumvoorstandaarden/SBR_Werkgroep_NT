@@ -1,0 +1,21 @@
+{
+    "rule_nr": "2.03.05.03",
+    "name": {
+        "nl": "VERVALLEN Een hypercube MOET een eigen linkrole hebben",
+        "en": "REMOVED A hypercube MUST have a dedicated linkrole"
+    },
+    "explanation": {
+        "nl": "Zie 2.03.05.01",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "decommission_date": "2011/12/02",
+    "related": "2.02.03.05",
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "XML Linkbase - Hypercubes"
+}

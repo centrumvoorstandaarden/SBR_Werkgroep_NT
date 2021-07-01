@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.03.08.01",
+    "name": {
+        "nl": "De waarde van @xml:lang voor Nederlands MOET \u2018nl\u2019 zijn",
+        "en": "The content of @xml:lang for Dutch MUST be \u2018nl\u2019"
+    },
+    "explanation": {
+        "nl": "Technisch is het mogelijk om bv. nl-nl op te geven. SBR kiest voor eenduidigheid.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "error_message": {
+        "nl": "@xml:lang MOET &quot;nl&quot; zijn voor Nederlands",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "references": "SBR Australi\u00eb: 110 NA",
+    "section": "XML Linkbase - Labels"
+}

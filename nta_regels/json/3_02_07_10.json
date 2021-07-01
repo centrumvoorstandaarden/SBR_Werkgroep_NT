@@ -1,0 +1,19 @@
+{
+    "rule_nr": "3.02.07.10",
+    "name": {
+        "nl": "VERVALLEN: Een standaard label waarin series van drie of meer  voorkomen MOET de komma als scheidingsteken hanteren",
+        "en": "REMOVED: Standard labels that contain sequences of three or more MUST use the comma as separator"
+    },
+    "explanation": {
+        "nl": "NA",
+        "en": null
+    },
+    "decommission_date": "2011/09/28",
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "Naamgeving - Element Standaard label"
+}

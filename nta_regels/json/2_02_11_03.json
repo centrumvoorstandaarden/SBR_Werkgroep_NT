@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.02.11.03",
+    "name": {
+        "nl": "<xs:any> MOET NIET gebruikt worden",
+        "en": "<xs:any> MUST NOT be used by Dutch Taxonomy Partners"
+    },
+    "explanation": {
+        "nl": "Dit XML schema element kan gebruikt worden om bijvoorbeeld typed dimensies of segment en scenario elementen te defini\u00ebren. Gebruik geeft de rapporteur de mogelijkheid om alle vormen van XML mee te leveren in de instance. In theorie dus ook een schema mits de inhoud ervan in een enkel (NT) concept wordt gezet. Dit kan tot onvoorspelbare verwerking bij Digipoort en NT Partners leiden en daarom is het gebruik ervan verboden.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "error_message": {
+        "nl": "xs:any MOET NIET gebruikt worden",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "XML Schema - Overig"
+}

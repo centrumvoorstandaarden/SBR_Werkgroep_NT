@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.02.02.27",
+    "name": {
+        "nl": "NT domeinen die elementen met andere talen dan de lokale taal willen ondersteunen, MOETEN de labels in die taal aanleveren voor de NL-GEN en NL-CD concepten EN blijven verantwoordelijk voor het onderhoud op die vreemde taal labels",
+        "en": "Dutch Taxonomy domains that want to equip elements with languages other the local language, MUST create labels in that language for the NL-GEN and NL-CD DTSs AND are responsible for the maintenance of these labels"
+    },
+    "explanation": {
+        "nl": "SBR-NT-beheer beheert alleen de NL en EN talige labels. Een domein specifieke extensie kan zorgen voor gemengd taalgebruik bij het vullen van een instance als er concepten van andere taxonomie\u00ebn gebruikt worden, die de bewuste taal niet ondersteunen.",
+        "en": null
+    },
+    "introduction_date": "2011/04/06",
+    "related": "3.02.15.02",
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "XML Schema - Concepten"
+}

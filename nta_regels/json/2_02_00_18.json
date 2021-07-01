@@ -1,0 +1,21 @@
+{
+    "rule_nr": "2.02.00.18",
+    "name": {
+        "nl": "xs:schema/xs:include MOET NIET gebruikt worden",
+        "en": "xs:schema/xs:include MUST NOT be used"
+    },
+    "explanation": {
+        "nl": "Voor financi\u00eble rapportage taxonomie\u00ebn is de internationale best practice dat er alleen met <xs:import> gewerkt wordt. Bij XBRL-GL wordt wel zwaar geleund op <xs:include>.",
+        "en": ""
+    },
+    "introduction_date": "2010/06/23",
+    "error_message": {
+        "nl": "xs:schema/xs:include MOET NIET gebruikt worden",
+        "en": ""
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "references": "GFM2.0: 1.3.1",
+    "testable": false,
+    "section": "XML Schema - Basis"
+}

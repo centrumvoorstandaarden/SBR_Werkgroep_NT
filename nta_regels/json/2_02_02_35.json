@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.02.02.35",
+    "name": {
+        "nl": "Een concept mag niet gebaseerd zijn op het type nl-types:imageItemType.",
+        "en": "A concept may not be based on the type nl-types:imageItemType."
+    },
+    "explanation": {
+        "nl": "Het type nl-types:imageItemType is bedoeld om afbeeldingen op te nemen in een instance. Dit is alleen toegestaan in een Preparer Extension.",
+        "en": null
+    },
+    "introduction_date": "2017/05/15",
+    "error_message": {
+        "nl": "Een concept mag niet gebaseerd zijn op het type nl-types:imageItemType.",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "XML Schema - Concepten"
+}

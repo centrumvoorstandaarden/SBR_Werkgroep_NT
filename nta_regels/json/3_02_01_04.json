@@ -1,0 +1,20 @@
+{
+    "rule_nr": "3.02.01.04",
+    "name": {
+        "nl": "Mappen die deel uitmaken van de NT MOETEN in de structuur van tabel F passen",
+        "en": "Folders that are part of the Dutch Taxonomy MUST fit the structure of table F"
+    },
+    "explanation": {
+        "nl": "NA",
+        "en": null
+    },
+    "introduction_date": "2010/11/17",
+    "related": "NT_Naamgeving#Tabel_F:_Directorie_namen",
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "Naamgeving - Bestanden en directories"
+}

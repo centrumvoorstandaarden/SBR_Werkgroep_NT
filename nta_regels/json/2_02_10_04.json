@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.02.10.04",
+    "name": {
+        "nl": "Een schema in een DTS MAG \u00e9\u00e9n presentatie linkbase(s) omvatten",
+        "en": null
+    },
+    "explanation": {
+        "nl": "nvt",
+        "en": null
+    },
+    "related": "2.02.10.01",
+    "error_message": {
+        "nl": "nvt",
+        "en": null
+    },
+    "nta_rule": false,
+    "pe_rule": true,
+    "section": "XML Schema - Entrypoint schema\u2019s"
+}

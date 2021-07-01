@@ -1,0 +1,19 @@
+{
+    "rule_nr": "3.02.03.06",
+    "name": {
+        "nl": "xs:schema/@targetNamespace MOET de volgende componenten bevatten: http://www.nltaxonomie.nl / {ntversie} /  {domein prefix} / {publicatiedatum}{optioneel: versie} / {mapnaam}",
+        "en": "xs:schema/@targetNamespace MUST contain components: http://www.nltaxonomie.nl / {folder path} / {schema name} / {year}. In the order generic - specific."
+    },
+    "explanation": {
+        "nl": null,
+        "en": null
+    },
+    "introduction_date": "2012/05/01",
+    "error_message": {
+        "nl": "xs:schema/@targetNamespace MOET de volgende componenten bevatten: http://www.nltaxonomie.nl / {ntversie} /  {domein prefix} / {publicatiedatum}{optioneel: versie} / {mapnaam}",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "Naamgeving - Namespace URI"
+}

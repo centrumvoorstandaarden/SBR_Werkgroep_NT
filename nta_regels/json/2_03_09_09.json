@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.03.09.09",
+    "name": {
+        "nl": "<formula:consistencyAssertion> MOET NIET gebruikt worden.",
+        "en": "<formula:consistencyAssertion> MAY NOT be used."
+    },
+    "explanation": {
+        "nl": "geen",
+        "en": null
+    },
+    "introduction_date": "2016/05/01",
+    "error_message": {
+        "nl": "geen",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "XML Linkbase - Controle regels"
+}

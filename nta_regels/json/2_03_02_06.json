@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.03.02.06",
+    "name": {
+        "nl": "<link:arcroleRef> @xlink:role MOET NIET gebruikt worden",
+        "en": "<link:arcroleRef> @xlink:role MUST NOT be used"
+    },
+    "explanation": {
+        "nl": "Dit is een technische voorziening waarvoor geen onderliggende business requirement bekend is. De XBRL specificatie geeft alleen dat dit attribuut optioneel is toegestaan.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "related": "4.02.006",
+    "error_message": {
+        "nl": "&lt;link:arcroleRef&gt; @xlink:role MOET NIET gebruikt worden",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "XML Linkbase - Arcroles"
+}

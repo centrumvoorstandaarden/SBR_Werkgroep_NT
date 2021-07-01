@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.03.03.07",
+    "name": {
+        "nl": "Reference resources MOETEN NIET naar willekeurige internet locaties verwijzen. Alleen gecontroleerde locaties van SBR of haar NT partners is toegestaan.",
+        "en": "Reference resources MUST NOT contain random internet locations. Only locations under supervision of SBR or their NT partners are allowed."
+    },
+    "explanation": {
+        "nl": "De taxonomie wordt afhankelijk van het voortbestaan van internet paginas die niet onder controle van de auteurs vallen. Bovendien staat hiermee de weg open om javascript of flash applicaties naar binnen te halen, wat ongewenst is.",
+        "en": null
+    },
+    "agreed_date": "2014/11/19",
+    "error_message": {
+        "nl": "Reference resources MOETEN NIET naar ongecontroleerde internet adressen verwijzen",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "XML Linkbase - Referenties"
+}

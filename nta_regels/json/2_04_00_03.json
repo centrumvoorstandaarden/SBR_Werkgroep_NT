@@ -1,0 +1,21 @@
+{
+    "rule_nr": "2.04.00.03",
+    "name": {
+        "nl": "Tuple kinderen MOETEN GEEN afwijkende @contextRef waarden bevatten in \u00e9\u00e9n 'set' voorkomen van de tuple in de instance UITGEZONDERD de root tuple",
+        "en": "Tuple children MUST NOT contain deviating @contextRef values in one 'set' of the tuple in the instances EXCEPT root tuples"
+    },
+    "explanation": {
+        "nl": "De tuple is bedoeld om kind items bij elkaar te houden. Door naar diverse contextRef's te verwijzen wordt deze 'binder' teniet gedaan. Dit is met name gedaan om de kinderen bij gebruik van dimensies dezelfde dimensie/domeinlid te laten verkrijgen. Het is wel mogelijk de tuple een tweede maal op te nemen (mits toegestaan) en daar een afwijkende contextRef waarde te gebruiken.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "decommission_date": "2011/01/01",
+    "related": "2.02.02.06",
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "XBRL Instance - Basis"
+}

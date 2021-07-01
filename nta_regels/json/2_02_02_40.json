@@ -1,0 +1,18 @@
+{
+    "rule_nr": "2.02.02.40",
+    "name": {
+        "nl": "Aan bestaande elementen uit de NT MOGEN alleen labels met label-role beginnend met http://www.nltaxonomie.nl/2016/labelrole/entitySpecific worden toegevoegd.",
+        "en": null
+    },
+    "explanation": {
+        "nl": "NA",
+        "en": null
+    },
+    "error_message": {
+        "nl": null,
+        "en": null
+    },
+    "nta_rule": false,
+    "pe_rule": true,
+    "section": "XML Schema - Concepten"
+}

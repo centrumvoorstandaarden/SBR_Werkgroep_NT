@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.02.11.05",
+    "name": {
+        "nl": "<xs:appinfo> MOET NIET gebruikt worden voor andere content dan elementen uit de xlink of link namespaces",
+        "en": "<xs:appinfo> MUST NOT be used for other content then elements from the xlink or link namespaces"
+    },
+    "explanation": {
+        "nl": "Het xs:appinfo element is bedoeld voor applicatie specifieke aanwijzingen. XBRL 2.1 heeft aanwijzingen gedefinieerd voor het verwerken van XLink elementen voor XBRL processors. Om te voorkomen dat er onbekende opdrachten in dit element voorkomen mag hier niets anders dan door XBRL gedefinieerd is in opgenomen worden.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "error_message": {
+        "nl": "xs:appinfo MOET NIET gebruikt worden voor andere content dan XLink elementen",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "references": "SBR Australi\u00eb: 125 SA",
+    "section": "XML Schema - Overig"
+}

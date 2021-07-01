@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.03.04.04",
+    "name": {
+        "nl": "<link:presentationArc/@order> MOET gebruikt worden",
+        "en": "<link:presentationArc/@order MUST be used"
+    },
+    "explanation": {
+        "nl": "Technisch gezien is het @order optioneel. Om presentatie software niet zelf te laten raden hoe de relaties op volgorde gezet moeten worden, MOET de DTS auteur een @order meegeven.",
+        "en": null
+    },
+    "introduction_date": "2011/04/06",
+    "error_message": {
+        "nl": "link:presentationArc/@order MOET gebruikt worden",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "references": "GFM 1.6.1",
+    "section": "XML Linkbase - Presentatie"
+}

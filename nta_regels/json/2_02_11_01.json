@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.02.11.01",
+    "name": {
+        "nl": "<xs:all> MOET NIET gebruikt worden",
+        "en": "<xs:all> MUST NOT be used"
+    },
+    "explanation": {
+        "nl": "De XML node xs:all wordt door FRTA 2.3.7 verboden.",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "error_message": {
+        "nl": "xs:all MOET NIET gebruikt worden",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "references": "FRTA 2.3.7",
+    "section": "XML Schema - Overig"
+}

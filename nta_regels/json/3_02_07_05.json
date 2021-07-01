@@ -1,0 +1,17 @@
+{
+    "rule_nr": "3.02.07.05",
+    "name": {
+        "nl": "Labels BEHOREN met een hoofdletter beginnen",
+        "en": "Labels SHOULD have a capital first letter"
+    },
+    "explanation": {
+        "nl": "NA",
+        "en": null
+    },
+    "introduction_date": "2011/09/28",
+    "error_message": {
+        "nl": "Labels MOETEN met een hoofdletter beginnen",
+        "en": null
+    },
+    "section": "Naamgeving - Element Standaard label"
+}

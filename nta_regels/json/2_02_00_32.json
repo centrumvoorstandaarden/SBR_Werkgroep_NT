@@ -1,0 +1,19 @@
+{
+    "rule_nr": "2.02.00.32",
+    "name": {
+        "nl": "Alleen datatypes die binnen w3.org, XBRL.org, de NT en de preparer extensie worden gedefinieerd MOETEN worden gebruikt.",
+        "en": ""
+    },
+    "explanation": {
+        "nl": "NA",
+        "en": ""
+    },
+    "error_message": {
+        "nl": "",
+        "en": ""
+    },
+    "nta_rule": false,
+    "pe_rule": true,
+    "testable": false,
+    "section": "XML Schema - Basis"
+}

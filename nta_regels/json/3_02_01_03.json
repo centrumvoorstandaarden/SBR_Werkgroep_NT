@@ -1,0 +1,19 @@
+{
+    "rule_nr": "3.02.01.03",
+    "name": {
+        "nl": "De naam van een map MOET minder dan 15 karakters zijn.",
+        "en": "Folder names MUST contain less than 15 characters"
+    },
+    "explanation": {
+        "nl": "Om excessieve namen te voorkomen.",
+        "en": null
+    },
+    "introduction_date": "2011/09/28",
+    "error_message": {
+        "nl": "De naam van een map MOET minder dan 15 karakters zijn",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "section": "Naamgeving - Bestanden en directories"
+}

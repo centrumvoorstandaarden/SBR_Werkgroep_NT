@@ -1,0 +1,20 @@
+{
+    "rule_nr": "2.03.00.05",
+    "name": {
+        "nl": "Een linkbase MOET NIET meer dan \u00e9\u00e9n XML commentaarsectie bevatten",
+        "en": "A linkbase MUST NOT contain more than one XML comment section"
+    },
+    "explanation": {
+        "nl": "Zie 2.02.00.05",
+        "en": null
+    },
+    "introduction_date": "2010/06/23",
+    "related": "2.02.00.05",
+    "error_message": {
+        "nl": "XML Linkbase MOET NIET meer dan \u00e9\u00e9n XML comment node bevatten",
+        "en": null
+    },
+    "nta_rule": true,
+    "pe_rule": true,
+    "section": "XML Linkbase - Basis"
+}

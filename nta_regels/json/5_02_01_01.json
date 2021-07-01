@@ -1,0 +1,21 @@
+{
+    "rule_nr": "5.02.01.01",
+    "name": {
+        "nl": "Taxonomiesets moeten compleet zijn",
+        "en": "Teaxonomy-set must be all-inclusive"
+    },
+    "explanation": {
+        "nl": "",
+        "en": "-"
+    },
+    "introduction_date": "2021-01-30",
+    "agreed_date": "2021-01-29",
+    "error_message": {
+        "nl": "",
+        "en": ""
+    },
+    "nta_rule": true,
+    "pe_rule": false,
+    "testable": false,
+    "severity": "WARNING"
+}
