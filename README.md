@@ -3,6 +3,7 @@ Welkom op de GitHub repository van de SBR werkgroep NT. Wij beheren afspraken di
 
 ## NTA Regels
 Respec: https://publicatie.centrumvoorstandaarden.nl/sbr/nta/regels/
+
 Admin en zoekfunctie: https://publicatie.centrumvoorstandaarden.nl/sbr/nta/regels/admin/
 
 ## Best Practices
