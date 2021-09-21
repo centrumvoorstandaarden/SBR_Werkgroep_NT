@@ -9,3 +9,5 @@
 | Message       | ...-msg-XX.xml      |
 | Footnote      | Niet van toepassing |
 | Table         | ...-tab.xml         |
+
+XX zijn de ISO taalcode in kleine letters in twee posities; de regio en eigenaar die mogelijk zijn bij deze ISO norm worden NIET meegenomen in de bestandsnaam. 
