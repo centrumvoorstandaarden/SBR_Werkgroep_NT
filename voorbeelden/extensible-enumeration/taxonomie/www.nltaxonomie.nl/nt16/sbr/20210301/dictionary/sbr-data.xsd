@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Dutch Taxonomy (Nederlandse Taxonomie; NT)
+  Intellectual Property of the State of the Netherlands
+  Architecture: NT16
+  Version: 20210301
+  Release date Fri Feb 26, 2021
+-->
+<xs:schema xmlns:enum2="http://xbrl.org/2020/extensible-enumerations-2.0" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:sbr-dm="http://www.nltaxonomie.nl/nt16/sbr/20210301/dictionary/sbr-domains" xmlns:sbr-i="http://www.nltaxonomie.nl/nt16/sbr/20210301/dictionary/sbr-data" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.nltaxonomie.nl/nt16/sbr/20210301/dictionary/sbr-data">
+  <xs:annotation>
+    <xs:appinfo>
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="sbr-data-lab-en.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="sbr-data-lab-nl.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:import namespace="http://www.nltaxonomie.nl/nt16/sbr/20210301/dictionary/sbr-domains" schemaLocation="sbr-domains.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <xs:import namespace="http://xbrl.org/2020/extensible-enumerations-2.0" schemaLocation="https://www.xbrl.org/2020/extensible-enumerations-2.0.xsd"/>
+  <xs:element abstract="false" enum2:domain="sbr-dm:M49_001" enum2:headUsable="false" enum2:linkrole="urn:sbr:linkrole:countries" id="sbr-i_CountryMultiSelect" name="CountryMultiSelect" nillable="false" substitutionGroup="xbrli:item" type="enum2:enumerationSetItemType" xbrli:periodType="instant"/>
+  <xs:element abstract="false" enum2:domain="sbr-dm:M49_001" enum2:headUsable="false" enum2:linkrole="urn:sbr:linkrole:countries" id="sbr-i_CountrySingleSelect" name="CountrySingleSelect" nillable="false" substitutionGroup="xbrli:item" type="enum2:enumerationItemType" xbrli:periodType="instant"/>
+</xs:schema>

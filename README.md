@@ -2,8 +2,9 @@
 Welkom op de GitHub repository van de SBR werkgroep NT. Wij beheren afspraken die zijn vastgelegd in de Nederlandse Taxonomie Architectuur. Ook stellen wij bijbehorende best practices beschikbaar.
 
 ## NTA Regels
+Respec: https://publicatie.centrumvoorstandaarden.nl/sbr/nta/regels/
 
-todo
+Admin en zoekfunctie: https://publicatie.centrumvoorstandaarden.nl/sbr/nta/regels/admin/
 
 ## Best Practices
 
