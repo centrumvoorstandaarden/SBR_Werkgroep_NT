@@ -1,3 +1,7 @@
+Op de SBR wiki was de volgende lijst met namespace URI's en bijbehorende prefixes te vinden. Deze lijst is in Oktober 2021 buiten gebruik gesteld aangezien regel 3.02.04.04 hier al in voorziet. Deze stelt namelijk het volgende: "Een namespace prefix toegekend in het schema waar de target namespace gedeclareerd wordt, MOET door alle andere NT schema?s of documenten in de PE gevolgd worden"
+
+Deze lijst is nu slechts opgenomen ter informatie.1
+
 | Namespace URI                                 | Prefix     |
 |-----------------------------------------------|------------|
 | http://www.w3.org/XML/1998/namespace          | xml        |
