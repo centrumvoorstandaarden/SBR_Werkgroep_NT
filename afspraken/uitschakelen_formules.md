@@ -36,11 +36,11 @@ In april 2021 is de definitieve RfC voorgelegd aan de Expertgroep gegevens, hier
 
 ## Voorgestelde oplossing
 Zoals gezegd stelt de Expertgroep Gegevens voor om de aanpak van SBR-Nexus te hanteren: 
-Een csv bestand met een combinatie van de namespace waar de uit te schakelen formule zich bevindt, 
+Een csv bestand met een combinatie van het bestand waar de uit te schakelen formule zich bevindt, 
 de localname van de formule en de datum waarop de formule uitgeschakeld dient te worden.
 
 De header van het document ziet er als volgt uit:
-Namespace, Formula localname, entrypoint, datum buiten gebruik CRLF
+Bestand, Formula localname, roleuri, entrypoint, datum buiten gebruik CRLF
 
 Een uitgeschakelde formule wordt als volgt beschreven:
 http://www.nltaxonomie.nl/nt15/kvk/20201209/validation/kvk-balance-sheet-banks-for.xml, 
@@ -49,20 +49,20 @@ kvk-rpt-jaarverantwoording-2020-nlgaap-banken.xsd,
 20210101 
 CRLF
 
-| Namespace | Formula localname | entrypoint | datum buiten gebruik |
+| Bestand | Formula localname | roleuri |entrypoint | datum buiten gebruik |
 |-----------|-------------------|------------|----------------------|
-|http://www.nltaxonomie.nl/nt15/kvk/20201209/validation/kvk-balance-sheet-banks-for.xml|valueAssertion_BalanceSheetBanks_PrtFST1SumOfChildrenDParentDebit1|kvk-rptjaarverantwoording-2020-nlgaap-banken.xsd|20210101|
+|http://www.nltaxonomie.nl/nt15/kvk/20201209/validation/kvk-balance-sheet-banks-for.xml|valueAssertion_BalanceSheetBanks_PrtFST1SumOfChildrenDParentDebit1|"urn:kvk:linkrole:balance-sheet-banks"|kvk-rptjaarverantwoording-2020-nlgaap-banken.xsd|20210101|
 
 
 
 Een scheiding van kolommen wordt aangegeven met een komma "," zoals beschreven in https://tools.ietf.org/html/rfc4180
 
 ## Publicatiemethoden
-De lijst wordt allen gepubliceerd als er daadwerkelijk formules zijn uitgezet. 
+De lijst wordt alleen gepubliceerd als er daadwerkelijk formules zijn uitgezet. 
 Er wordt dus geen lege lijst gepubliceerd voor elke gepubliceerde taxonomie. 
 Zodra er wijzigingen zijn zal deze lijst worden gepubliceerd op:
 https://www.nltaxonomie.nl/disabled_formulas/{NT versie}/{domein}/disabled_formulas.csv
 
-Marktpartijen voor wie op de hoogte willen blijven kunnen hierdoor geautomatiseerd wijzigingen bijhouden. 
+Marktpartijen kunnen op de hoogte blijven door (geautomatiseerd) wijzigingen in deze bestanden te volgen. 
 De markt wordt daarnaast via de gebruikelijke kanalen op de hoogte gesteld. 
 
