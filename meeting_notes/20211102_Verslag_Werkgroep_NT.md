@@ -1,8 +1,4 @@
-| ![](RackMultipart20211115-4-154ym5f_html_11de1a3f3cc23f07.png) |
-| --- |
-|
-
-# **Verslag**
+# Verslag
  **Werkgroep Nederlandse Taxonomie**
 
 | Vergaderdatum | 02-11-2021 |
@@ -10,14 +6,7 @@
 | Aanwezig | Tim Koelewijn (TK, vz), Erwin Kaats (EK), Mark Dirksen (MD), Ernst Dunnink (ED), Annemarie van der Pol (AP) en Aad Bergman (AD) |
 | Afwezig | Ronald Vis (RV) |
 
-
- | **Belastingdienst**
-**Bezoekadres** Team CCTGebouw G, kamer 60John F. Kennedylaan 87314 PS Apeldoorn
-**Postadres** Postbus 90507300 GM Apeldoorn
-**Inlichtingen** Tim Koelewijn+31 615951640t.koelewijn@belastingdienst.nl
-**Datum** 03-11-2021
-**Bijlage(n)**Actielijst
- |
+**Bijlage(n)** Actielijst
 
 ## Opening
 
@@ -59,7 +48,8 @@ Met de verandering van de wekelijkse overleggen naar alleen maandelijkse demo&#3
 
 OIM voor instances is ondertussen Recommended. Ondertussen is de WG OIM overgegaan op het onderbrengen van het taxonomiedeel in OIM. TK is daarbij aangesloten en zal regelmatig terugkoppelen aan de WGNT.
 
-## GitHub issues (https://github.com/centrumvoorstandaarden/SBR\_Werkgroep\_NT/issues)
+## GitHub issues 
+https://github.com/centrumvoorstandaarden/SBR\_Werkgroep\_NT/issues
 
 Er zijn geen issues die besproken moeten worden.
 
@@ -85,8 +75,6 @@ Dit punt doorgezet naar de volgende WGNT.
 
 ## Rondvraag
 
--.
 
 ## Afsluiting
 
-Volgende bijeenkomst 7 december 2021, 13.30-16.30 via webex nummer 175 277 5731 en wachtwoord cC5Hs2mUZv7 https://rijksvideo.webex.com/rijksvideo/j.php?MTID=m952234cac9eb465c1faef1ff0012cfc6
