@@ -15,6 +15,8 @@
 ### XBRL International
 ## GitHub issues 
 https://github.com/centrumvoorstandaarden/SBR_Werkgroep_NT/issues
+## RfC Extensible Enumerations 2.0
+## RfC Wijzigingen NTA 17
 ## Aparte taxonomie voor geharmoniseere concepten
 ## XBRL instantie voorzien van informatie uit de taxonomie over gebruikte concepten
 ## Rondvraag
