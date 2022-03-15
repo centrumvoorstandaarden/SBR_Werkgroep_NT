@@ -1,5 +1,5 @@
  
-# Gebruik van references
+# Gebruik van labels
 (overgenomen van wiki, nog niet herschreven.)
 **Todo: gebruik Negated label en Guidance is toegestaan sinds het opstellen van deze tekst.**
 
