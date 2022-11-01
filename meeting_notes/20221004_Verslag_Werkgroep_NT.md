@@ -3,8 +3,8 @@
 
 | Vergaderdatum | 04-10-2022 |
 | --- | --- |
-| Aanwezig | Tim Koelewijn (TK, vz), Appie Verschoor (AV), Jacques Urlus (JU), Ernst Dunnink (ED), Erwin Kaats (EK), Sander 't Hoen (SH) en Lilian Sep (LS) |
-| Afwezig |  Aad Bergman (AD), Ronald Vis (RV) en Annemarie van der Pol (AP) |
+| Aanwezig | Tim Koelewijn (TK, vz), Appie Verschoor (AV), Jacques Urlus (JU), Ernst Dunnink (ED), Erwin Kaats (EK), Sander 't Hoen (SH), Aad Bergman (AD) en Lilian Sep (LS) |
+| Afwezig |  Ronald Vis (RV) en Annemarie van der Pol (AP) |
 
 ## Opening
 Voorzitter opent de vergadering en heet alle leden welkom.
